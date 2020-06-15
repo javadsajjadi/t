@@ -1,4 +1,4 @@
-<dic dir="rtl">
+<div dir="rtl">
 # رێنمایی دامەزراندن
 <!-- position: 3 -->
 
@@ -23,7 +23,7 @@ $ git clone https://github.com/bludit/bludit.git
 $ cd bludit
 $ php -S localhost:8000
 ```
-<dic dir="rtl">
+<div dir="rtl">
 لە شریتی وێبگەرەکەتان بچنە نێو ئەم ناونیشانە `http://localhost:8000`
 
 ---
@@ -35,12 +35,12 @@ $ php -S localhost:8000
 ```
 $ docker run --name bludit -p 8000:80 -d bludit/docker:latest
 ```
-<dic dir="rtl">
+<div dir="rtl">
 لە شریتی وێبگەرەکەتان بچنە نێو ئەم ناونیشانە `http://localhost:8000`
 </div>
 
 ---
-<dic dir="rtl">
+<div dir="rtl">
 <h2 id="vagrant">Vagrant</h2>
 دامەزراندنی وەیگرێنت لە  [دامەزراندنی فەرمی وەیگرێنت](https://pilab.dev/bludit-vagrant).
 </div>
@@ -50,12 +50,12 @@ $ git clone https://github.com/mhancoc7/Bludit-Vagrant.git
 $ cd Bludit-Vagrant
 $ vagrant up
 ```
-<dic dir="rtl">
+<div dir="rtl">
 لە شریتی وێبگەرەکەتان بچنە نێو ئەم ناونیشانە `http://localhost:8080`
 </div>
 
 ---
-<dic dir="rtl">
+<div dir="rtl">
 <div class="note">
 <div class="title">ڕاژەی وێب</div>
 دەتوانن لە بەستەرەکانی ڕووبەروو بۆ پەیکەرسازی ڕاژە هەوڵ بدەن. <a href="https://docs.bludit.com/en/webservers/apache">Apache</a> - <a href="https://docs.bludit.com/en/webservers/nginx">Nginx</a>
