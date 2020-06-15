@@ -25,7 +25,7 @@
 * [Patreon](https://www.patreon.com/bludit) - داگرتنی وشانی بازرگانی.
 
 <h2 id="license">مۆڵەت</h2>
-بلودیت نەرمەکالایێکی سەرچاوەکراوەیە بە مۆڵەتدانی [MIT مۆڵەتی.](https://tldrlegal.com/license/mit-license)
+بلودیت نەرمەکالایێکی سەرچاوەکراوەیە بە مۆڵەتدانی [ئیم ئای تی مۆڵەتی.](https://tldrlegal.com/license/mit-license)
 
 
 </div>
