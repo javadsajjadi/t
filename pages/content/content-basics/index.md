@@ -6,11 +6,11 @@
 بلودیت پێنج جۆر ناوەرۆکی هەیە
 
 <h2 id="pages">پەڕەکان</h2>
-Pages can be treated as a regular `page` or a `post` (blog post). In the end, the concept of `page` is just a name. Pages can be ordered by `date` or by `position`.
+پەڕەکان دەتوانن بە عینوانی نووسراوەیێک `پەڕە` یا یەک `ناردراوە` (نووسراوەی بلۆگ) دابین بکرێن. لە کۆتایی ناوەرۆکی `پەڕە` تەنها ناوێکە. پەڕەکان دەتوانن ریز بکرێن بە `بەروار` یان `شوێن`.
 
-For example, if you are interested in creating a blog, you can order the pages by `date`. If you are interested in creating a website with the pages in a specific order, you can order the pages by `position`.
+بۆ نمونە, گەر ئێوە پێتان خۆشە بلۆگێکتان بێت دەتوانن نووسراوەکان بە پێوەری `بەروار` رێکبخەن. گەر ئێوە پێتان خۆشە کە ماڵپەڕێکتان بێت دەتوانن نووسراوەکان بە پێوەری `شوێن` رێکبخەن.
 
-Bludit orders the pages by `date` by default, but you can change this from the settings by going to **Settings > General > Advanced > Order content by**.
+بلودیت ریزدەکا پەڕەکان لە سەر پێوەری `بەروار` بە شێوازی پێشگریمان, بەڵآم ئێوە دەتوانن ئەم رێکخستنە بگۆڕن بە چوون بۆ **رێکخستنەکان > گشتی > پێسکەوتوو > ریزکردنی ناوەرۆک لەسەر**.
 
 ---
 
