@@ -4,7 +4,7 @@
 
 <h2 id="installation-from-zip-file">دامەزراندن لەرێگای پەڕگەی زیپ</h2>
 
-1. داگرتنی دوایین وشان لەم ناونیشانە [the official page](https://www.bludit.com).
+1. داگرتنی دوایین وشان لەم ناونیشانە [پەڕەی فەرمی](https://www.bludit.com).
 2. کردنەوەی پەڕگەی زیب.
 3. بارکردنی فایلی کراوەی زیپ لە سەر ڕاژە یان ڕاژەکار. ئێوەدەتوانن لە لقی ڕیشەی ڕاژە باری بکەن, ئان لە ژێر لقێک بۆ وێنە `/bludit/`.
 4. بۆ بارکردن لە ڕاژە دەتوانن لە, کلاینێتی FTP , WebFTP, یان ئەبزارەکانی دیکە کە کۆمپانیای ڕاژە دەیخەنە بەردەستان سوود بگرن.
@@ -23,13 +23,16 @@ $ git clone https://github.com/bludit/bludit.git
 $ cd bludit
 $ php -S localhost:8000
 ```
+
 <div dir="rtl">
+  
 لە شریتی وێبگەرەکەتان بچنە نێو ئەم ناونیشانە `http://localhost:8000`
 
 ---
 
 <h2 id="docker">Docker</h2>
 دامەزراندنی بلودیت لە رێگای [دۆکێر وێنەی فەرمی](https://hub.docker.com/r/bludit/docker/).
+
 </div>
 
 ```
@@ -40,9 +43,11 @@ $ docker run --name bludit -p 8000:80 -d bludit/docker:latest
 </div>
 
 ---
+
 <div dir="rtl">
 <h2 id="vagrant">Vagrant</h2>
 دامەزراندنی وەیگرێنت لە  [دامەزراندنی فەرمی وەیگرێنت](https://pilab.dev/bludit-vagrant).
+  
 </div>
 
 ```
@@ -50,11 +55,13 @@ $ git clone https://github.com/mhancoc7/Bludit-Vagrant.git
 $ cd Bludit-Vagrant
 $ vagrant up
 ```
+
 <div dir="rtl">
 لە شریتی وێبگەرەکەتان بچنە نێو ئەم ناونیشانە `http://localhost:8080`
 </div>
 
 ---
+
 <div dir="rtl">
 <div class="note">
 <div class="title">ڕاژەی وێب</div>
