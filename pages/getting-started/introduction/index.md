@@ -20,12 +20,14 @@
 * [گیتهاب](https://github.com/bludit/bludit)
 
 <h2 id="donations">یارمەتی مادی</h2>
-یارمەتی مادی دەبێ بەهۆکاری گەشەکردن و لەسەر پێ ماندنی ئەم پرۆژەیە. دەتوانن بە یارمەتی مادی لە پەی پاڵ یان پاترئۆن وشانی بازرگانی بلودیت دابگرن or support Bludit via Patreon to get Bludit PRO.
+یارمەتی مادی دەبێ بەهۆکاری گەشەکردن و لەسەر پێ ماندنی ئەم پرۆژەیە. دەتوانن بە یارمەتی مادی لە پەی پاڵ یان پاترئۆن وشانی بازرگانی بلودیت دابگرن or 
+
 * [Paypal](https://www.paypal.me/bluditpro/5)
 * [Patreon](https://www.patreon.com/bludit) - داگرتنی وشانی بازرگانی.
 
 <h2 id="license">مۆڵەت</h2>
-بلودیت نەرمەکالایێکی سەرچاوەکراوەیە بە مۆڵەتدانی [ئیم ئای تی مۆڵەتی.](https://tldrlegal.com/license/mit-license)
+بلودیت نەرمەکالایێکی سەرچاوەکراوەیە بە مۆڵەتدانی
+[ئیم ئای تی مۆڵەتی](https://tldrlegal.com/license/mit-license)
 
 
 </div>
