@@ -1,5 +1,9 @@
-# Bludit Documentation English Version
-Here you can find all the documentation about Bludit in English.
+<div dir="rtl">
 
-This documentation is in sync with the website
-- https://docs.bludit.com/en/
+# بەڵگەکانی وشانی کوردی
+لێرە دەتوانن تەواوی بەڵگەکانی رێنمایی پەیوەندی لەگەڵ بلودیت پەیدا بکەن
+
+ئەم بەڵگەنامە پەیوەسی کراوە بە ماڵپەڕی بلودیت لە بەستەری خوارەوە
+- https://docs.bludit.com/ckb/
+
+</div>
