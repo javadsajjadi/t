@@ -15,25 +15,26 @@
 ---
 
 <h2 id="static">نەجولاو</h2>
-Static pages are set to *not* appear on the homepage; these pages are still published, and can be accessed via the URL. These kind of pages are useful for pages such as `About`, `Terms and conditions`, `Privacy`, or `Contact us`. Themes will generally show links to these pages at the top of your site.
+پەڕەکانی نەجوولاو(ستاتیک) ئەم تایبەتمەندییەیان هەیە کە لە پەڕەی سەرەتایی نیشان نەدرێن; ئەڵبەت بڵآوکراوەن، وە لە ناونیشانی وێب لەبەردەستن. ئەم نووسراوانە بۆ جۆرە پەڕەکان وەک `دەربارە`, `هەل و مەرج`، `سنووری بەکارهێنەر`, یان `پەیوەندی` بەسوودن. روکارەکان بەستەرێک بۆ ئەم پەڕە نەجولاوانە لە شریتی سەرەوەی خۆیان دابین دەکەن.
 
-To create this kind of page, while you are creating the content, go to the **Options** tab, and select the type **Type > Static**.
+بۆ دروستکردنی ئەم پەڕە نەجولاوانە لەکاتێک دا نووسراوەکەتان دەنووسن لە دوگمەی  **بژاردەکان** لەسەر خشتی  **جۆر > ستاتیک** بژاردە بکەن تابێ بە پەڕەیێکی نەجولاو.
 
 ---
 
 <h2 id="sticky">لکاو</h2>
-Sticky pages are the same as a normal page, but appear before all other published pages on the home page.
+پەڕەی لکاو وەک پەڕەیێکی ئاسایی وان, بەڵام ئەم تایبەتمەندییەیان هەیە کە لەسەرەوەی نووسراوەکان لە پەڕەی سەرەتایی دەردەکەون
 
 ---
 
 <h2 id="draft">پێشنووس</h2>
-Draft pages allow the user to create content without publishing it until it's ready. Draft pages are only accessible via the administration panel.
+نووسراوەی پێشنووس تەنها لە پەڕەی بەڕیوەبەر لەبەردەستەو بەکارهێنەران دەتوانن هەر کات نووسراوەکەیان تەواو کرد نوسراوەکەیان بڵآو بکەنەوە
+
 
 ---
 
 <h2 id="scheduled">بەرنامەڕێژکراو</h2>
-Scheduled pages are not published until a time and date set by the user. You can schedule a page to publish itself in the next few minutes, hours, days, weeks, or months.
+ئێوە لەم جۆرنووسراوە دەتوانن نوسینەکەتان بە کاژێر،خولەک،چرکە لە کاتێکی دیاری کراو بڵاو بکەنەوە
 
-To select the date, go to the **Options** tab and set the date in the **Date** field while you are creating the content.
+هەڵبژاردنی بەروار, بڕۆن بۆ سەرخشتی **بژاردەکان** ئینجا بەرواری بڵاوکردن لە  **بەروار** هەڵبژێرن بۆ بڵاوکردنی نووسراوە
 
 </div>
