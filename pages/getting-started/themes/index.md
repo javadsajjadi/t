@@ -1,13 +1,16 @@
-# Themes
+<div dir="rtl">
+
+# روکارەکان
 <!-- position: 6 -->
 
-Bludit supports themes to change the appearance of your website or blog.
+بلودیت بۆ گۆڕینی ڕوخساری ماڵپەڕ یان بلۆگەکەتان لە ڕوکارەکان پاڵپشتی دەکا
 
-You can find themes on the [Bludit Themes](https://themes.bludit.com) website.
+ئێوە دەتوانن رووکاری جۆرواجۆر پەیدا بکەن لە [روکارەکانی بلودیت](https://themes.bludit.com) .
 
-## How to install a theme
-1. Download the zip file with the theme.
-2. Uncompress the zip file.
-3. Copy the theme folder into the folder `/bl-themes/` on the server.
-4. Go to the **Admin panel**, and on the left sidebar go to **Settings > Themes**.
-5. Look for the theme in the list, and click on **Activate**.
+## جۆن روکاری بلودیت دامەزرێنم
+1. داگرتن پەڕگەی زیپی رووکار.
+2. کردنەوەی پەڕگەی زیپ.
+3. ڕوونووسکردن لە بوخچەی `/bl-themes/` لەسەر ڕاژە.
+4. بڕۆن بۆ **تەختەی بەڕێوەبەر**، لە شریتی لاتەنیشتی ڕاست **رێکخستنەکان > ڕوکارەکان**.
+5. بگەڕێن بۆ ڕووکار لە پێرستەکە, ئینجا کرتە بکەن لەسەر **چالاکی**.
+</div>
