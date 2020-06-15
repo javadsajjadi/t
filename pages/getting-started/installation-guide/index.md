@@ -37,13 +37,15 @@ $ php -S localhost:8000
 <div dir="rtl">
   
 <h2 id="docker">دۆکێر</h2>
-دامەزراندنی بلوریت لە رێگای داکێر [وێنەیداکێر[(https://hub.docker.com/r/bludit/docker)
+دامەزراندنی بلوریت لە رێگای داکێر [وێنەیداکێر](https://hub.docker.com/r/bludit/docker)
  
 </div>
+
 
 ```
 $ docker run --name bludit -p 8000:80 -d bludit/docker:latest
 ```
+
 <div dir="rtl">
 لە شریتی وێبگەرەکەتان بچنە نێو ئەم ناونیشانە `http://localhost:8000`
 </div>
