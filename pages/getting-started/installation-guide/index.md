@@ -36,8 +36,7 @@ $ php -S localhost:8000
 
 <div dir="rtl">
 <h2 id="docker">دۆکێر</h2>
-دامەزراندنی بلودیت لە رێگای [دۆکێر وێنەی فەرمی](https://hub.docker.com/r/bludit/docker/).
-
+[دۆکێر وێنەی فەرمی]دامەزراندنی بلودیت لە رێگای (https://hub.docker.com/r/bludit/docker/).
 </div>
 
 ```
