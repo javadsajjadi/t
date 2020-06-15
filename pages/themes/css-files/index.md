@@ -1,29 +1,40 @@
-# CSS files
+<div dir="rtl">
+
+# CSS پەڕگەکانی
 <!-- position: 3 -->
 
-Bludit provides helpers for developers, to help them write less code.
+بلودیت helpers بۆ گەشەپێدەران بڵآوکردووە کە کۆدی کەمتر لێبدەن.
 
-For the purpose of this tutorial, we will use the following names:
-- Name of the theme `box`
-- Site URL `https://www.example.com`
-- Theme path `/bl-themes/box/`
-- CSS file path `/bl-themes/box/style.css`
+بۆ ئەم فێرکارییە لە نێوەکانی خوارەوە سوود دەگرین
+- ناوی رووکار `box`
+- ناونیشانی ماڵپەڕ `https://www.example.com`
+- شوێنی رووکار `/bl-themes/box/`
+- CSS شوێنی پەڕگەکانی `/bl-themes/box/style.css`
 
-Let's add a CSS file called `style.css`. This file is located in `/bl-themes/box/style.css`; you don't need to worry about the absolute path if you use the `Theme::` helper.
+helper بێت زۆر گرینگی نادەن بە مەسیریوەرن  پەڕگەیێک بە ناوی   `style.css`زیاد بکەین. شوێنی ئەم پەڕگەیە  `/bl-themes/box/style.css`؛ گەر ئێوە پەڕگەیێک بەناوی `Theme::` .
+</div>
+
+
 ```
 <?php
 	echo Theme::css('style.css');
 ?>
 ```
 
-HTML output
+<div dir="rtl">
+HTMLدەرئەنجامی
+</div>
+
 ```
 <link rel="stylesheet" type="text/css" href="https://www.example.com/bl-themes/box/style.css">
 ```
 
-<h2 id="example">Example</h2>
+<div dir="rtl">
+<h2 id="example">نمەنەکان</h2>
 
-The next HTML and PHP snippet is a complete example of how to include two CSS files in a theme.
+کۆدی HTML وە PHP نمونەیێکی تەواو لە گونجاندنی دوو پەڕگەی CSS لە رووکارێکە
+</div>
+
 
 ```
 <!DOCTYPE html>
