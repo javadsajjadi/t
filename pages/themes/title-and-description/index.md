@@ -27,7 +27,7 @@
 
 <h2 id="description">شرۆڤە</h2>
 
-چپکردنی`<description>` تاگێکی سەردێر بۆ ناوەرۆکی جولاو. شرۆڤە پەیکەرسازی دەکا بۆ رێکخستنی ماڵپەڕەکەت .
+چاپکردنی`<description>` تاگێکی سەردێر بۆ ناوەرۆکی جولاو. شرۆڤە پەیکەرسازی دەکا بۆ رێکخستنی ماڵپەڕەکەت .
 
 </div>
 
@@ -36,8 +36,11 @@
 	echo Theme::metaTags('description');
 ?>
 ```
+
 <div dir="rtl">
-دەرنجامی HTML 
+دەرنجامی HTML
+</div>	
+	
 ```
 <meta name="description" content="Description about your site">
 ```
