@@ -19,14 +19,14 @@
 ```
 
 <div dir="rtl">
-HTML دەرئەنجامی
+ دەرئەنجامیHTML
 </div>
 
 ```
 <script src="https://www.example.com/bl-kernel/js/jquery.min.js"></script>
 ```
 <div dir="rtl">
-<h2 id="bootstrap">Include Bootstrap</h2>
+<h2 id="bootstrap">دابینکردنی Bootstrap</h2>
 
 بلوودەیت دوایین وشانی  Bootstrap لە خۆی جێگیر کردووە، ئێوە دەتوانن بەیارمەتی helper بیخەنە نێو ڕووکار هەروەها پەڕگەکانی جاڤاسکریپت و...
 
@@ -39,7 +39,7 @@ HTML دەرئەنجامی
 ?>
 ```
 <div dir="rtl">
-HTML دەرئەنجام
+ HTMLدەرئەنجام
 </div>
 
 ```
@@ -56,7 +56,7 @@ HTML دەرئەنجام
 ```
 
 <div dir="rtl">
-HTML دەرئەنجامی
+ HTMLدەرئەنجامی
 </div>
 
 ```
