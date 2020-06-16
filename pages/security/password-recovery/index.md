@@ -1,32 +1,35 @@
-# Password recovery
+<div dir="rtl">
+
+# گەڕانەوەی تێپەڕوشە
 <!-- position: 4 -->
 
-You can recover the password for the `admin` user using the `recovery.php` script.
+ئێوە دەتوانن تێپەڕ وشە یان وشەی نهێنی   `admin` بە یارمەتی پەڕگەسکریپتی `recovery.php` بهێننەوە.
 
-<h2 id="how-to-recover-the-password">How to recover the password</h2>
+<h2 id="how-to-recover-the-password">جۆن تێپەڕوشە بهێنینەوە</h2>
 
-1. Download the [recovery.php](https://raw.githubusercontent.com/bludit/password-recovery-tool/master/recovery.php) file.
-2. Upload the `recovery.php` file to your Bludit installation, on the root folder.
-3. Open the file with your browser, for example: https://example.com/recovery.php, change the `example.com` for your domain.
-4. A new password for the `admin` user is generated and displayed in the browser.
-5. Log in to the admin panel with the `admin` user, and the new password generated.
+1. پەڕگەی [recovery.php](https://raw.githubusercontent.com/bludit/password-recovery-tool/master/recovery.php) دابگرن
+2.پەڕگەی `recovery.php` لە شوێنی دامەزراندنی بلودیت لە ریشە یان رەگی ڕاژە بار بکەن.
+3. بەیارمەتی وێبگەڕەکەت ئەم پەڕگە بکەرەوە ، بۆ وێنە:: https://example.com/recovery.php, ناونیشانی ماڵپەڕەکەت بە جیاتی `example.com` بنووسن.
+4. تێپەڕوشەی نهێنی بۆ بەکارهێنەری `admin` دروست وە لە وێبگەڕەکەت نیشان دەدرێت.
+5. بە هەژمارەی بەکارهێنەری `admin` تێپەڕوشەی نوێ بچنەژووری بەڕێوەبەر.
 
-The recovery.php script is going to try to delete itself, but if this doesn't happen, we recommend delete the recovery.php file by hand.
+سکریپتی recovery.php هەوڵ دەدا خۆی بسڕێتەوە، بەڵام گەر ئەم کردارە  خۆکارانە ئەنجام نەبوو، پێشنیار دەکەم بەدەستی لە ڕاژە بیسڕنەوە.
 
 ---
 
-<h2 id="how-to-recover-the-password-via-command-line">How to recover the password via command line</h2>
+<h2 id="how-to-recover-the-password-via-command-line">بە هێڵێ فەرمان چۆن تێپەڕوشە بگەڕێنیەوە</h2>
 
-You can execute the `recovery.php` file via the command line.
+ئێوە دەتوانن سکریپتی `recovery.php` لە نێو هێڵی فەرمان جێبەجێ بکەن.
+</div>
 
 ```
-# Go to the directory where you have installed Bludit
+# بڕۆنە نێو ئەو لقە کە بلودیتان دامەزراندووە
 cd /var/html/bludit
 
-# Download the file
+# سکریپتەکە دابگرن
 curl -o recovery.php https://raw.githubusercontent.com/bludit/password-recovery-tool/master/recovery.php
 
-# Execute the tool
+# ئامرازەکە جێبەجێ بکەن
 php recovery.php
 ```
 
