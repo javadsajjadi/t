@@ -7,7 +7,7 @@
 
 - لە نێو ئەم بوخچە `/bl-themes/` ڕووکارەکەم دادەنێم کە دەبێتە ئەم شوێنە : `/bl-themes/coffee/`.
 - بوخچەی  `languages` دروستدەکەم، لە نێو ئەم شوێنە `/bl-themes/coffee/` .
-- بوخچەی `en.json` دروستدەکەم لەنێو بوخچەی `/bl-themes/coffee/languages/` .
+- پەڕگەی `en.json` دروستدەکەم لەنێو بوخچەی `/bl-themes/coffee/languages/` .
 - پەڕگەی `metadata.json` لە نێو بوخچەی `/bl-themes/coffee/` دروستدەکەم.
 - پەڕگەی `index.php`، لە نێو بوخچەی `/bl-themes/coffee/` دروستدەکەم.
 
