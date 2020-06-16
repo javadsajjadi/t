@@ -1,41 +1,53 @@
-# Favicon
+<div dir="rtl">
+	
+# ئایکۆن
 <!-- position: 5 -->
 
-Bludit provides helpers to help developers to write less code.
+بلودیت helpers  بڵآوکردووە تا گەشەپێدەران کۆدی کەمتر بنووسن.
 
-For the purpose of this tutorial we will use the following names:
-- Name of the theme `box`
-- Site URL `https://www.example.com`
-- Theme path `/bl-themes/box/`
-- Favicon file path `/bl-themes/box/favicon.png`
+بۆ ئەم فێرکارییە کە ناوەکانی خوارەوە سوود دەگرین
+- ناوی رووکار `box`
+- ناونیشانی ماڵپەڕ `https://www.example.com`
+- شوێنی رووکار `/bl-themes/box/`
+- شوێنی ئایکۆن `/bl-themes/box/favicon.png`
 
-The next method from the helper `Theme::` generates the head tag for the favicon; by default, the MIME type returned is `image/png`.
+قۆناغی دیکە لە  helperـی  `Theme::` تاگی head بۆ ئایکۆن دروست دەکرێت; بە شێوازی گریمانە،  MIME type نرخی `image/png` دەگەڕێنێتەوە .
+</div>
+
 ```
 <?php
 	echo Theme::favicon('favicon.png');
 ?>
 ```
+<div dir="rtl">
+دەرئەنجامی HTML
+</div>
 
-HTML output
 ```
 <link rel="shortcut icon" href="https://www.example.com/bl-themes/box/favicon.png" type="image/png">
 ```
-
-Also, you can specify the MIME type if you want to use another favicon type such as `.ico`.
+<div dir="rtl">
+هەروەها گەر هەرەکتانە لەجۆرێکی دیکەی ئایکۆن سوود بگەن بۆ وێنە `.ico` دەتوانن  MIME type دابین بکەن .
+	</div>
+	
 ```
 <?php
 	echo Theme::favicon('favicon.ico', 'image/x-icon');
 ?>
 ```
 
-HTML output
+<div dir="rtl">
+دەرئەنجامی HTML
+</div>
+
 ```
 <link rel="shortcut icon" href="https://www.example.com/bl-themes/box/favicon.ico" type="image/x-icon">
 ```
+<div dir="rtl">
+<h2 id="example">نموونە</h2>
 
-<h2 id="example">Example</h2>
-
-Here's a complete example of how to include the favicon in a theme.
+لێرە نمونەیێکی تەواو لە فێرکاری دابین کردنی ئایکۆن لە کۆدی رووکارمان هاوردووەتەوە.
+</div>
 
 ```
 <!DOCTYPE html>
