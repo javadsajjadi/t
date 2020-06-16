@@ -1,40 +1,44 @@
-# Predefined variables
+<div dir="rtl">
+
+# لەپێش ناساندنی گۆڕاوەکان
 <!-- position: 3 -->
 
-Bludit provides a few predefined variables to help developers:
+بلوودیت چەندین گۆڕاوەی لە پێش ناساندووە بۆ پەڕەپێدەران
 
 <h2 id="content">$content</h2>
 
-The `$content` variable is an array with all published pages (it includes `pages` and `sticky`, but does not include `statics`). Each page included in the array is a [Page Object](https://github.com/bludit/bludit/blob/master/bl-kernel/pagex.class.php).
+گۆڕاوەی `$content`  کە  array ناسراوە بۆ تەواو پەڕەکان (بریتییەلە `pages` وە `sticky`, بەڵام بریتی نییە لە پەڕەکانی `statics`). هەر پەڕەیێک بریتییە لە  array کە لەم بەستەرە [Page Object](https://github.com/bludit/bludit/blob/master/bl-kernel/pagex.class.php)زانیاری هەس.
 
-The array is ordered by `date` or by `position`, and you can change this behavior in the settings of your system.
+ئارایەکان ریز دەکرێن لەگەڵ `date` وەیا `position`, کە ئێوە دەتوانن بیانگۆڕن لە بەشی رێکخستنی ماڵپەڕ
 
-Take a look at the code snippets to know how to work with this variable.
+دەتوانن بۆ زانیاری فرەتر ئەم بەستەرە لە خوارەوە چاولێبکەن
 - https://docs.bludit.com/en/dev-snippets/content-pages
 
 <h2 id="staticContent">$staticContent</h2>
 
-The `$staticContent` variable is an array with all the `static` pages. Each page included in the array is a [Page Object](https://github.com/bludit/bludit/blob/master/bl-kernel/pagex.class.php).
+گۆڕاوەی `$staticContent`  دەتوانێت array بۆ تەواو پەڕەکانی `static` بێت. هەر پەڕەیێک لەم بەشە بریتییە لە ئارایەیێک لە [Page Object](https://github.com/bludit/bludit/blob/master/bl-kernel/pagex.class.php).
 
-The array is ordered by `position` by design.
+ئارایەکان بریتین لە شوێنێک `position` بۆ دیزاین کردن
 
-Take a look at the code snippets to know how to work with this variable.
+دەتوانن بۆ زانیاری فرەتر سەردانی ئەم بەستەرە لە گۆڕاوەکان بکەن
 - https://docs.bludit.com/en/dev-snippets/content-static
 
 <h2 id="page">$page</h2>
 
-The `$page` variable represents whichever page the user is browsing. The variable is a [Page Object](https://github.com/bludit/bludit/blob/master/bl-kernel/pagex.class.php).
+گۆڕاوەی `$page` نوینەری هەپەڕەیێکە کە بەکارهێنەر بۆی دەگەڕێ. ئەم گۆڕاوە هەیە لە [Page Object](https://github.com/bludit/bludit/blob/master/bl-kernel/pagex.class.php).
 
-For example, if the user is browsing at `https://www.example.com/my-dog-rules`, the `$page` variable has the page object for the key, e.g. `my-dog-rules`.
+بۆ نمونە گەر بەکارهێنەر لە ناونیشانی `https://www.example.com/my-dog-rules`,  `$page` گۆڕاوە دەتوانێت وەک کلیلێک کردار بکات, e.g. `my-dog-rules`.
 
 <h2 id="pages">$pages</h2>
 
-The `$pages` variable is a [Pages Object](https://github.com/bludit/bludit/blob/master/bl-kernel/pages.class.php). This object is used to manipulate the page database.
+ `$pages` گۆڕاوەی هەیە لە [Pages Object](https://github.com/bludit/bludit/blob/master/bl-kernel/pages.class.php). ئەم گۆڕاوە دەتوانێت ئابجێکتیک بێت لە بنکە دراوە ناوەرۆک
 
 <h2 id="tags">$tags</h2>
 
-The `$tags` variable is a [Tags Object](https://github.com/bludit/bludit/blob/master/bl-kernel/tags.class.php). This object is used to manipulate the tag database.
+گۆڕاوەی `$tags` هەیە وەک [Tags Object](https://github.com/bludit/bludit/blob/master/bl-kernel/tags.class.php). دەتوانێت وە بنکەی تاگەکان سوودی لێبگیرن
 
 <h2 id="categories">$categories</h2>
 
-The `$categories` variable is a [Categories Object](https://github.com/bludit/bludit/blob/master/bl-kernel/categories.class.php). This object is used to manipulate the category database.
+گۆڕاوەی `$categories`هەیە لە [Categories Object](https://github.com/bludit/bludit/blob/master/bl-kernel/categories.class.php). ئەم ئابجێکتە دەتوانن دەستکاری بکەن لە هاوپۆلەکانی زانیاری
+
+</div>
