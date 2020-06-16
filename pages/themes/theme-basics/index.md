@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # بنەمای ڕووکار
 <!-- position: 1 -->
 
@@ -8,6 +10,8 @@
 <h2 id="structure">چوارچێوەی بوخچە و پەڕگەکان</h2>
 
 ئەمە چوارچێوەیێکی ستانداردە بۆ ڕووکارەکان.
+</div>
+
 
 ```
 /bl-themes/{THEME_NAME}/
@@ -16,9 +20,12 @@
 	index.php
 ```
 
+<div dir="rtl">
+	
 <h2 id="name-description">ناو و شرۆڤە</h2>
 
 ناو و شڕۆڤەکانی ڕووکار لە پەڕگەیێکیJSON لەم شوێنە جێگیر بووە  `languages/en.json`   .
+</div>
 
 ```
 {
@@ -29,10 +36,11 @@
 	}
 }
 ```
-
+<div dir="rtl">
 <h2 id="information">زانیاری</h2>
 
 زانیاری رووکار لە پەرگەیێکیJSON لەم شوێنێ دابین کراوە    `metadata.json`  .
+</div>
 
 ```
 {
@@ -47,9 +55,12 @@
 }
 ```
 
+<div dir="rtl">
 <h2 id="examples">نمونەی روکار</h2>
 
 لێرە دوو نمونە رووکارمان هەیە نمونەیێکی سادە و نموونەیێک کەمێ ئاڵۆز لەگەڵ پەڕگەکانی CSS وە Javascript پەڕگەیە.
 
 - [یەکەمین رووکارەکەم](https://docs.bludit.com/en/themes/example-my-first-theme)
 - [دووهەمین رووکارەکەم](https://docs.bludit.com/en/themes/example-my-second-theme)
+
+</div>
