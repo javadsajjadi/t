@@ -8,7 +8,7 @@
 <h2 id="how-to-recover-the-password">چۆن تێپەڕوشە بهێنینەوە</h2>
 
 1. پەڕگەی [recovery.php](https://raw.githubusercontent.com/bludit/password-recovery-tool/master/recovery.php) دابگرن
-2.پەڕگەی `recovery.php` لە شوێنی دامەزراندنی بلودیت لە ریشە یان رەگی ڕاژە بار بکەن.
+2. پەڕگەی `recovery.php` لە شوێنی دامەزراندنی بلودیت لە ریشە یان رەگی ڕاژە بار بکەن.
 3. بەیارمەتی وێبگەڕەکەت ئەم پەڕگە بکەرەوە ، بۆ وێنە:: https://example.com/recovery.php, ناونیشانی ماڵپەڕەکەت بە جیاتی `example.com` بنووسن.
 4. تێپەڕوشەی نهێنی بۆ بەکارهێنەری `admin` دروست وە لە وێبگەڕەکەت نیشان دەدرێت.
 5. بە هەژمارەی بەکارهێنەری `admin` تێپەڕوشەی نوێ بچنەژووری بەڕێوەبەر.
@@ -17,7 +17,7 @@
 
 ---
 
-<h2 id="how-to-recover-the-password-via-command-line">بە هێڵێ فەرمان چۆن تێپەڕوشە بگەڕێنیەوە</h2>
+<h2 id="how-to-recover-the-password-via-command-line">بە هێڵێ فەرمان چۆن تێپەڕوشە بگەڕێنینەوە</h2>
 
 ئێوە دەتوانن سکریپتی `recovery.php` لە نێو هێڵی فەرمان جێبەجێ بکەن.
 </div>
