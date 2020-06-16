@@ -1,10 +1,10 @@
 <div dir="rtl">
 
-# وەرگێڕانی روکار
+# وەرگێڕانی ڕووکار
 
 <!-- position: 2 -->
 
-هەر روکارێک بوخچەیێکی بە ناوی `languages`، لە نێو ئەم بۆخچە بۆ هەر زمانێک پەڕگەی تایبەت دابین کراوە.
+هەر رووکارێک بوخچەیێکی بە ناوی `languages`، لە نێو ئەم بۆخچە بۆ هەر زمانێک پەڕگەی تایبەت دابین کراوە.
 
 </div>
 
@@ -16,13 +16,13 @@
 	fr_FR.json
 	...
 ```
-
+<div dir="rtl">
 <div class="note">
 <div class="title">ئینکۆدینگی پەڕگە</div>
 هەموو پەڕگەکان بە شێوەی <b>JSON</b> دروستکراوەن, وە هەموویان بە شێوەی <b>UTF-8</b> ئینکۆد کراون.
 </div>
 
-This is an example of an English dictionary file (`en.json`). Each line in the `en.json` file is a key-value pair, with the key on the left and the value on the right.
+لێرە نمونەیێک لە زمانی ئینگلیزی لە پەڕگەی (`en.json`) دێنینەوە. هەر هێڵ لە پەڕگەی `en.json` جووتێک ژمارە-نرخی هەیە ، کە کلیلی لای ڕاست ئەندازە و کلیلی لای چەپ نرخ ـێکی بۆ دابین کراوە.
 
 </div>
 
@@ -42,7 +42,7 @@ This is an example of an English dictionary file (`en.json`). Each line in the `
 
 لێرە نمونەیێک لە زمانی سپانیۆلی دێنین کە لە مەسیری `/bl-themes/{THEME_NAME}/languages/es.json` جێگیر کراوە
 
-> </div>
+ </div>
 
 ```
 {
