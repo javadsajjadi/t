@@ -1,10 +1,13 @@
-# Plugin basics
+<div dir="rtl">
+	
+# بنەمای سەرەتایی زیادکراوە
 <!-- position: 1 -->
 
-Plugins in Bludit reside in the `bl-plugins` folder, and they have a predefined structure. Each plugin is an object in Bludit, with differents hooks (methods).
+زیادکراوەکان لە بلوودیت لە بوخچەی `bl-plugins` جێگیر بووە، وە هەر زیادکراوە چوارچێوەیێکی تایبەتی هەیە. هەر زیادکراوە لە بلوودیت لە ئۆبجیکتەکان بە هووک(مێتۆد)ـی جیاواز دروست بووە. (methods).
 
-<h2 id="structure">Folder and Files Structure</h2>
-These are the mandatory folder structure and files for a plugin:
+<h2 id="structure">چوارچێوەی پەڕگە و بوخچە</h2>
+ئەمە چوارچێوەی بنەمایی بۆ پەڕگە و بوخچەکانن :
+</div>
 
 ```
 /bl-plugins/{PLUGIN_NAME}/
@@ -13,8 +16,10 @@ These are the mandatory folder structure and files for a plugin:
 	plugin.php
 ```
 
-<h2 id="name-and-description">Name and Description</h2>
-The name and description of the plugin is located in the JSON file, `languages/en.json`.
+<div dir="rtl">
+<h2 id="name-and-description">ناو و شڕۆڤە</h2>
+ناو و شڕۆڤەی زیادکراوەکان لە پەڕگەی JSON جێبەجێ بووە بەم جۆرە, `languages/en.json`.
+</div>
 
 ```
 {
@@ -26,8 +31,10 @@ The name and description of the plugin is located in the JSON file, `languages/e
 }
 ```
 
-<h2 id="information">Information</h2>
-The meta information of the plugin is located in the JSON file, `metadata.json`.
+<div dir="rtl">
+<h2 id="information">زانیاری</h2>
+زانیاری زیادکراوە لە پەڕگەی JSON بوونی هەیە بە شێوازی پەڕگەی `metadata.json`.
+</div>
 
 ```
 {
@@ -42,20 +49,24 @@ The meta information of the plugin is located in the JSON file, `metadata.json`.
 }
 ```
 
-<h2 id="hello-world">Hello World</h2>
-The Hello World plugin for Bludit. The code below needs to be in the `plugin.php` file.
+<div dir="rtl">
+<h2 id="hello-world">سڵاو یاپراخ</h2>
+سڵآو یاپراخ لە نێو پەڕگەیێک بە ناوی`plugin.php` جێگیر دەبێت تا کرداری زیادکراوەیێک بۆ بلوودیت ئەنجام بدات.
+</div>
 
 ```
 <?php
 	class pluginHello extends Plugin {
 		public function siteSidebar() {
-			echo 'Hello world';
+			echo 'سڵآو یاپراخ';
 		}
 	}
 ?>
 ```
-
+<div dir="rtl">
 <div class="note">
-<div class="title">Download</div>
-Download the source code of the plugin <a href="https://github.com/bludit/examples/tree/master/plugins/hello-world">Hello World</a>.
+<div class="title">داگرتن</div>
+سەرچاوەکۆدی سڵاو یاپراخ دابگرە <a href="https://github.com/bludit/examples/tree/master/plugins/hello-world">سڵآو یاپراخ</a>.
+</div>
+</div>
 </div>
