@@ -1,7 +1,11 @@
-# Folder structure
+<div dir="rtl">
+
+# چوارچێوەی بوخچەکان
 <!-- position: 2 -->
 
-Here's the basic folder structure for Bludit.
+چوارچێوەی بوخچەکان لە بلوودیت بەم جۆرە بوونیان هەیە
+</div>
+
 ```
 /bl-content/	<-- Databases and uploaded images
 /bl-kernel/		<-- Core of Bludit
@@ -10,8 +14,11 @@ Here's the basic folder structure for Bludit.
 /bl-themes/		<-- Themes
 ```
 
+<div dir="rtl">
+	
 ## bl-content
-This folder is very important, as it is where Bludit stores all files, as well as databases and images. Before updating your Bludit installation, it's highly recommended to make a backup of this folder.
+ئەم بوخچە زۆر گرنگە, بۆ ئەوە وەک پاشکۆی پەڕگەکان کردار دەکا لە بلوودیت, بۆ ووینە وەک بنکەدراوە بۆ نووسراوەکان و وێنە ،پاش بەڕۆژکردنی بلوودیت پێشنیار ئەوەیە کە بەکاپێک لەم  بوخچە بگرن.
+</div>
 
 ```
 /bl-content/
@@ -39,11 +46,15 @@ This folder is very important, as it is where Bludit stores all files, as well a
 	workspaces/			<-- Workspaces for the plugins
 ```
 
+<div dir="rtl">
+	
 ## bl-kernel
-This folder contains the core of Bludit.
+ئەم بوخچە ناوکی بلوودیتە واتە بەشی بەڕێوەبردنی سیستەم
+
 
 ## bl-languages
-This folder contains all language files. Each file is a JSON document, encoded in UTF-8.
+تەواوی زمانەکان کە بلوودیتی پێ وەرگێڕاوە لەم بوخچەن کە بریتییەلە چەندین پەڕگەی JSON ,بە ئینکۆدینگی UTF-8.
+</div>
 
 ```
 /bl-languages/
@@ -55,8 +66,11 @@ This folder contains all language files. Each file is a JSON document, encoded i
 	...
 ```
 
+<div dir="rtl">
+	
 ## bl-plugins
-This folder contains all plugins. New plugins you download should be uploaded here.
+بوخچەی زیادکراوەکان ،هەر زیادکراوەیێک کە دایدەگرن دەبێ بیخەنە نێو ئەم بوخچە و پاشان لە بەشی بەڕێوەبەر دامەزرێنن
+</div>
 
 ```
 /bl-plugins/
@@ -68,8 +82,11 @@ This folder contains all plugins. New plugins you download should be uploaded he
 	...
 ```
 
+<div dir="rtl">
+	
 ## bl-themes
-This folder contains all themes. New themes you download should be uploaded here.
+بوخچەی رووکارەکان، هەر ڕووکارێکیش دادەگرن سەرەتا دەبێ لەم بوخچە باری بکەن ئینجا لە بەشی بەرێوەبەر چالاکی بکەن
+</div>
 
 ```
 /bl-themes/
