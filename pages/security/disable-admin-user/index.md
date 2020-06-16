@@ -1,18 +1,21 @@
-# Disable admin user
+<div dir="rtl">
+
+# ناچالاککردنی بەکارهێنەری بەڕێوەببەری گشتی
 <!-- position: 1 -->
 
-By default, Bluditcreates a user called `admin` as the administrator for the system. Bludit uses this user for password recovery events; if you are going to delete another user and you want to keep his content, this content is assigned to the `admin` user.
+پێشگریمان، بلوودیت بەکارهێنەرێک بە عینوانی بەڕێوەبەری گشتی بە ناوی `admin` بۆ ماڵپەڕەکەت دروستدەکات. بلوودیت لەم بەکارهێنەرە بۆ گەڕانەوەی تێپەڕوشە کەڵک وەردەگرێت.یان گەر پێتان خۆش بێت بەکارهێنەرێک بشرنەوە بەڵآم نووسراوەکانی بهێڵنەوە ، نووسراوەکانی خۆکارانە دەچێتە سەر هەژمارەی بەکارهێنەری `admin` .
 
-For security reasons you can disable this user.
+بۆ ئاسایشی فرەتر ئێوە دەتوانن ئەم بەکارهێنەرە ، بەڕیووەبەر، ناچالاک بکەن.
 
-## How to disable the admin user
-If you are going to disable the Administrator of the system, ensure you have another user with the Administrator role.
+## جۆن بەکارهێنەری بەڕێوەبەری گشتی ناچالاک بکەین
+سەرەتا دەبێ دڵنیا بن کە بەکارهێنەرێک بە  دەسەڵاتی بەڕێوەبەرتان دروست کردووە یان هەتانە.
 
-- Go to the Admin Panel
-- Manage > Users > admin
-- Edit User > Status > Disable the user
+- بڕۆن بۆ تەختەی بەڕێوەبەر
+- بەڕێوەبەر > بەکارهێنەران > admin
+- دەستکاری بەکارهێنەر > دۆخ > ناجالاککردنی بەکارهێنەر
 
 <div class="note">
-<div class="title">Enable the user</div>
-To enable the user again, you must set a new password.
+<div class="title">چالاککردنی بەکارهێنەر</div>
+بۆ دووبارە چالاککردنی بەکارهێنەر ئێوە دەبێ تێپەڕوشەکەی ڕێکبخەن.
+</div>
 </div>
