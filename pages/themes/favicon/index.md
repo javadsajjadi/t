@@ -27,7 +27,7 @@
 <link rel="shortcut icon" href="https://www.example.com/bl-themes/box/favicon.png" type="image/png">
 ```
 <div dir="rtl">
-هەروەها گەر هەرەکتانە لەجۆرێکی دیکەی ئایکۆن سوود بگەن بۆ وێنە `.ico` دەتوانن  MIME type دابین بکەن .
+هەروەها گەر هەرەکتانە لەجۆرێکی دیکەی ئایکۆن سوود بگەن بۆ وێنە  `.ico`  دەتوانن  MIME type دابین بکەن .
 	</div>
 	
 ```
