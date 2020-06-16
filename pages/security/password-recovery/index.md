@@ -5,7 +5,7 @@
 
 ئێوە دەتوانن تێپەڕ وشە یان وشەی نهێنی   `admin` بە یارمەتی پەڕگەسکریپتی `recovery.php` بهێننەوە.
 
-<h2 id="how-to-recover-the-password">ۆن تێپەڕوشە بهێنینەوە</h2>
+<h2 id="how-to-recover-the-password">چۆن تێپەڕوشە بهێنینەوە</h2>
 
 1. پەڕگەی [recovery.php](https://raw.githubusercontent.com/bludit/password-recovery-tool/master/recovery.php) دابگرن
 2.پەڕگەی `recovery.php` لە شوێنی دامەزراندنی بلودیت لە ریشە یان رەگی ڕاژە بار بکەن.
