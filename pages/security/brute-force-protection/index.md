@@ -1,16 +1,20 @@
-# Brute Force Protection
+<div dir="rtl">
+
+# Brute پاراستن لە هێرشێ
 <!-- position: 2 -->
 
-## What is a Brute Force Attack?
-This kind of attack consists of an attacker trying many passwords or passphrases with the hope of eventually guessing correctly -Wiki.
+## هێرشی brute force چییە ؟
+هێرشیکە کە تەواو وڵامەکان بۆ وەرگرتنی وڵامی دروست ئەنجام دەدرێت لێرە مەبەست پەیدا کردنی وشەی نهێنی بەڕێوەبەرە بۆ چوونە نێو بەشی بەڕێوەبەرایەتی ماڵپەڕ.
 
-## How this works?
-Bludit provides brute force protection to mitigate this kind of attack, and this protection is enabled by default.
+## چۆن ئیش دەکا?
+بلوودیت بە شیوازی پێش گریمان بۆ کەم کردن و پاراستنی ئە هێرشەکانی Brute Force  چلاک کراوە لە سەر سکریپتەکە
 
-For each failure to log in, Bludit adds the IP of the user who failed to authenticate to a blacklist. When the user fails for a number of times, Bludit blocks the offending IP for a period of time, and the user can't log in until the block has expired.
+بۆ هەر هێرشێک بلوودیت ئای-پی(IP ) هێرشکەر بە شێوازی خۆکارانە دەخاتە نێو پێرستی ڕەش قوفڵێ دەکا
+کاتێک کە بەکارهێنەر چەندین بار هەوڵدەدا کە ئەم هێرشە ئەنجام بدات و سەرکەوتوو نابێت بلوودیت بۆ ماوەیێکی کاتی ئای-پی ـەکەی قەپات دەکات، ڕێگە نادا کە بەکارهێنەر بێتە نێو سیستەم تاکوو مەوداکەی کە بۆ قەپات بوون دانراوە، بەسەر دەچێت.
 
 ## Class and Object
-There is a `Security Object` called `$security`, and the class of the object is `/bl-kernel/security.class.php`. Take a look at the variables inside the class.
+دانەیێک `Security Object` بەناوی `$security` بوونی هەیەوەو ، class ــی ئەم object ـە لە مەسیری `/bl-kernel/security.class.php`دانراوە، چاوێک لە گۆڕاوەکانی ئەم کلاسە بکەن.
+</div>
 
 <pre><code data-language="php">
 private $dbFields = array(
@@ -20,11 +24,14 @@ private $dbFields = array(
 );
 </code></pre>
 
-- `minutesBlocked`: Amount of minutes the IP is going to be blocked.
-- `numberFailuresAllowed`: Number of failed attempts for the block to trigger.
-- `blackList`: The list of IPs blocked.
+<div dir="rtl">
+
+- `minutesBlocked`: مەودا بە خولەک بۆ قەپاتکردنی ئای-پی .
+- `numberFailuresAllowed`:ژمارەی هەوڵدانی سەرنەکەوتوو تاکوو سیستەمی پاڵاوتن چالاک دەبێ.
+- `blackList`: پێرستی ئای-پی قەپاتکراوە
 
 <div class="note">
-<div class="title">Note</div>
-You can change these values to your own values.
+<div class="title">خاڵ</div>
+جەنابت دەتوانی ئەم ژمارانە بە حەزی خۆت بگۆڕیت.
+</div>
 </div>
