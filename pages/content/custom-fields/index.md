@@ -45,7 +45,9 @@ Admin panel > Sidebar > New content
 	echo "The subtitle of the page is " . $page->custom('subtitle');
 ?>
 ```
+
 <div dir="rtl">
+	
 ## چوارچێوە
 چوارچێوە بەم شێوازە JSON سروستدەکرێت,وە پشتیوانی دەکا لە کلیلانە:
 - (required) `type`: جۆری خشتی دڵخواز بەم دوو کلیلە (`string`, `bool`).
@@ -57,6 +59,7 @@ Admin panel > Sidebar > New content
 
 ## زیادکردنی خشتە دڵخوازەکان
 بۆ ئەم مەبەستە هەنگاو بنە لەم شوێنە:
+
 </div>
 
 ```
@@ -133,9 +136,9 @@ Admin panel > Sidebar > Settings > General > Custom fields
 ```
 <div dir="rtl">
 ## وەرگرتنی خشتە دڵخواز
-The class page provides the method `custom()`, which returns the value of the field.
+هەر پەڕەیێک کڵاسێک بە مێتۆدی `custom()` هەیە, کە نرخێ خشتێک دەگەڕێنێتەوە.
 
-The following example prints the value of the field `youtube` from the above example.
+لەم نمونە خشت ناونیشانی یوتیوب دەگەڕێنێتەوە `youtube` لە نمونەکەی خوارەوە
 </div>
 
 ```
@@ -144,7 +147,8 @@ The following example prints the value of the field `youtube` from the above exa
 ?>
 ```
 <div dir="rtl">
-Check the boolean value from the field `inStock` from the above example.
+	
+لە نمونەی سەرەوە چاو لە نرخی بوولی بکەن بۆ `inStock` .
 </div>
 
 ```
@@ -157,10 +161,11 @@ Check the boolean value from the field `inStock` from the above example.
 ?>
 ```
 <div dir="rtl">
+	
 ## سڕینەوەی خشتە دڵخوازەکان
-To delete a custom field you just need to remove the entry from the JSON structure. The custom fields are not completely deleted from the database when you do this, but they are invalidated.
+بۆ سڕینەوەی خشتێک پێویستان بە چوارچێوەی پەڕەی JSON هەیە. هەر چەند ئەم کارە ئەنجام دەدەن بەتەواوی لە بنکەزانیاری ناسڕێتەوە بەڵام بێ باوڕی دەکە و خشتی هیچ کردارێکی نابێت
 
-If you want to remove all custom fields, just set an empty JSON in the textarea, as following:
+گەر هەرەکتانە تەواو خشتە دڵخوازەکان بسڕنەوە تەنها پەڕەی JSON لە شوێنی نووسینی دەق چۆڵ بکەن، وەک ئەم نموونە :
 </div>
 
 ```
