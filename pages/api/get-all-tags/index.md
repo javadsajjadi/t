@@ -1,25 +1,28 @@
-# Get all tags
+<div dir="rtl">
+
+# وەرگرتنی تەواو تاگەکان
 <!-- position: 7 -->
 
-Get all tags and the pages keys related to each tag.
+وەرگرتنی تاگەکان و پەڕەکان کە پەیوەندییان بە تاگەوە هەیە
 
-All requests to the API need the `API Token`; you can find the token in the plugin settings.
+تەواو داواکارییەکانی APIنیازی بە `API Token` هەیە; ئێوە دەتوانن تۆکن لە پەڕەی ڕێکخراوەکانی زیادکراوە پەیدا بکەن
 
-<h2 id="request">Request</h2>
+<h2 id="request">وڵام</h2>
 
-- Endpoint: `/api/tags`
-- Method: `GET`
+- خاڵی کۆتایی: `/api/tags`
+- مێتۆد: `GET`
 
-Below is the list of parameters allowed for this endpoint.
+پێرستێک لە خاڵە کۆتاییەکان لە خوارەوە نیشان دراوە.
 
 | key | value | Default value |
 |-----|-------|---------------|
 | `required` token | `string` API Token | |
 
-<h2 id="response">Response</h2>
+<h2 id="response">وڵام</h2>
 
-- HTTP Code: `200`
-- Content-Type: `application/json`
+- HTTP کۆدی: `200`
+- جۆری ناوەڕۆک: `application/json`
+</div>
 
 ```
 {
@@ -57,8 +60,10 @@ Below is the list of parameters allowed for this endpoint.
 }
 ```
 
-<h2 id="curl-example">CURL command example</h2>
-The following request returns a list of published and static pages, limited by the API. You can change the limit in the API settings.
+<div dir="rtl">
+<h2 id="curl-example">CURLنمونە فەرمانی</h2>
+گەڕانەوەی داواکان لە بڵاوکراوەکان و پەڕە نەجووڵاوەکان, سنووردارە بە API. دەتوانن ژمارەی سنوورداربوون بگۆڕن بە API رێکخستنەکانی.
+</div>
 
 ```
 $ curl -X GET \
@@ -66,7 +71,9 @@ $ curl -X GET \
 	-d "token=80a09ba055b73f68e3c9e7c9ea12b432"
 ```
 
-Output:
+<div dir="rtl">
+دەرەنجام:
+	</div>
 ```
 {
   "status": "0",
@@ -102,10 +109,12 @@ Output:
   ]
 }
 ```
-
-<h2 id="javascript-example">Javascript example</h2>
-You can use the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to get the list of tags.
-
+	
+<div dir="rtl">
+<h2 id="javascript-example">نمونەی جاڤاسکریپت</h2>
+دەتوانن سود بگرن لە [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) بۆ وەرگرتنی پێرستی تاگەکان.
+</div>
+	
 ```
 <script>
 	fetch("https://www.example.com/api/tags?token=eaf5df0a626145cc6d37b76f3eccc826", {
