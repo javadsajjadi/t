@@ -1,16 +1,16 @@
-# Custom fields
+# صشتەکانی دڵخواز
 <!-- position: 7 -->
 
-## Introduction
-Custom fields allow the user to add fields to the content database; The custom fields appear in the admin panel interface when you create or edit content.
+## ناساندن
+خشتە دڵخوازەکان ڕێگا دەدەن بە بەکارهێنەر کە خشتی تایبەت بە خۆیان زیاد بکەن لە ناوەڕۆکی نووسین; ئەم خشتانە لە تختەی بەڕێوەبەرایەتی لە کاتی نووسین و  دەستکاری دەردەکەون گەر دروستت کردبێت.
 
-## Quick example
-Add a custom field called `subtitle`. Go to:
+## نمونەی خێرا
+خشتێکی دڵخواز بەناوی `subtitle`.زیاد دەکەین و دەبێ بەم شوێنە هەنگاو بنینی
 ```
 Admin panel > Sidebar > Settings > General > Custom fields
 ```
 
-Add the following JSON text to the textarea and click in the button "Save".
+ئەم دەقەی پەڕگەی JSON لە نێو بۆکسی نووسین دادەنین و لە سەر دوگمەی "پاشکەوت" کرتە دەکین.
 ```
 {
     "subtitle": {
@@ -21,7 +21,7 @@ Add the following JSON text to the textarea and click in the button "Save".
 }
 ```
 
-Now create a new page. Go to:
+بۆ دروستکردنی پەڕەیێکی نوێ بەم شوێنە هەنگاو دادەنینی
 ```
 Admin panel > Sidebar > New content
 ```
@@ -36,7 +36,7 @@ The new page has a custom field called `subtitle` and you can print the value fr
 ?>
 ```
 
-## Structure
+## چوارچێوە
 The structure is defined in the JSON format, and supports the following keys:
 - (required) `type`: Type of the custom field, supported values (`string`, `bool`).
 - (optional) `label`: The label for the custom field.
@@ -45,15 +45,15 @@ The structure is defined in the JSON format, and supports the following keys:
 - (optional) `placeholder`: Small text inside the field.
 - (optional) `position`: Position in the editor, supported values (`top`, `bottom`). Default value is empty and the field apper in "Editor > Options > Custom".
 
-## Add custom fields
-To add custom fields go to:
+## زیادکردنی خشتە دڵخوازەکان
+بۆ ئەم مەبەستە هەنگاو بنە لەم شوێنە:
 ```
 Admin panel > Sidebar > Settings > General > Custom fields
 ```
 
-To define custom field, you need to generate a JSON structure. Check out the following examples:
+بۆ ناساندنی خشتەکان, بە دروستکرەری مەکینەی JSON نە.ئەم نمونە چاو لێبکە:
 
-Custom field as `string` and the key name `youtube`:
+خشتە دڵخواز وەک `string` وە کەی ناوێک `youtube`:
 ```
 {
     "youtube": {
@@ -64,7 +64,7 @@ Custom field as `string` and the key name `youtube`:
 }
 ```
 
-Custom field as `boolean` and the key name `inStock`:
+خشتە دڵخوازێک وەک `boolean`وە کەی ناوێک `inStock`:
 ```
 {
     "inStock": {
@@ -75,7 +75,7 @@ Custom field as `boolean` and the key name `inStock`:
 }
 ```
 
-Two custom fields with different types.
+دوو خشتە دڵخوازەکە جیاوازن بەم جۆرە
 ```
 {
     "product": {
@@ -91,7 +91,7 @@ Two custom fields with different types.
 }
 ```
 
-Three custom fields with different types and different position in the editor.
+سیهەمین خشتە دڵخواز لە دەستکاری کەر بۆم جۆرە دەبێ نیشان بدرێت
 ```
 {
     "product": {
@@ -112,7 +112,7 @@ Three custom fields with different types and different position in the editor.
 }
 ```
 
-## Get custom field
+## وەرگرتنی خشتە دڵخواز
 The class page provides the method `custom()`, which returns the value of the field.
 
 The following example prints the value of the field `youtube` from the above example.
@@ -133,7 +133,7 @@ Check the boolean value from the field `inStock` from the above example.
 ?>
 ```
 
-## Delete custom field
+## سڕینەوەی خشتە دڵخوازەکان
 To delete a custom field you just need to remove the entry from the JSON structure. The custom fields are not completely deleted from the database when you do this, but they are invalidated.
 
 If you want to remove all custom fields, just set an empty JSON in the textarea, as following:
