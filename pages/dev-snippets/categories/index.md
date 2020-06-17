@@ -14,7 +14,7 @@
 </div>
 
 <h2 id="list-all-categories">پێرستی تەواو هاوپۆلەکان:</h2>
-</DIV>
+</div>
 
 ```
 <?php
@@ -31,8 +31,10 @@
 	}
 ?>
 ```
+
 <div dir="rtl" >
 جێگرەوە:
+</div>
 
 ```
 <?php
@@ -52,7 +54,7 @@
 
 <div dir="rtl" >
 <h2 id="list-categories-that-have-pages">پێرستی هاوپۆلەکان کە پەڕەیان هەیە:</h2>
-</DIV>
+</div>
 
 ```
 <?php
@@ -71,7 +73,7 @@
 
 <div dir="rtl" >
 <h2 id="list-all-categories-and-pages">پێرستی هاوپۆلەکان و پەڕەی پەیوەندی بە هاوپۆلەکان:</h2>
-</DIV>
+</div>
 
 ```
 <?php
@@ -92,7 +94,7 @@
 
 <div dir="rtl" >
 <h2 id="list-all-pages-related-to-a-particular-category">پێرستی تەواو پەڕەکان کە پەیوەندی بە هاوپۆلێکی تایبەت هەیە:</h2>
-</DIV>
+</div>
 
 ```
 <?php
@@ -115,7 +117,7 @@
 
 <div dir="rtl" >
 <h2 id="get-the-active-category">بۆ وەرگرتنی چالاکی هاوپۆل:</h2>
-	</DIV>
+</div>
 	
 ```
 <?php
