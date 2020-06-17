@@ -136,6 +136,7 @@
 
 چاپی تاگەکان لە پەڕە:
 </div>
+
 ```
 <?php
 	$returnsArray = true;
