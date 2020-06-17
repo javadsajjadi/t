@@ -1,27 +1,34 @@
-# Request a particular page
+<div dir="rtl">
+
+# داوا بۆ پەڕەییکی تایبەت
 <!-- position: 3 -->
 
-Get a particular page by the page key.
+بۆ وەرگرتنی کلیلی پەڕەیێکی تایبەت
 
-All requests to the API need the `API Token`. You can find the token in the API plugin settings.
+تەواوی داواکان بۆ API پێویستی بە `API Token` هەیە. ئێوە دەتوانن تۆکن لە پەڕەی رێکخستنی ئەی.پی.ئەی پەیدا بکەن
+</div>
 
 ```bash
 Admin panel > Plugins > API > API Token
 ```
-
-<h2 id="request">HTTP Request</h2>
+<div dir="rtl">
+<h2 id="request">HTTP داواکان</h2>
+</div>
 
 ```bash
 GET /api/pages/{page key}
 ```
 
+<div dir="rtl">
 <h2 id="parameters">Parameters</h2>
 
 | key | value | Default value |
 |-----|-------|---------------|
 | `required` token | `string` API Token | |
 
-<h2 id="response">Response</h2>
+
+<h2 id="response">وڵام</h2>
+</div>
 
 ```bash
 HTTP Code: 200
@@ -48,16 +55,19 @@ Body:
 }
 ```
 
-<h2 id="curl-example">CURL command example</h2>
-You can request a particular page by the page key.
+<div dir="rtl">
+<h2 id="curl-example">CURL نمونە فەرمانی</h2>
+ئێوە دەتوانن داوای پەڕەییکی تایبەت بکەن بە کلیلیکی تایبەت
 
-The following example shows how to get the page with the key `my-dog`.
+لەم نمونەیە ئێوە دەتوانن داوای پەڕەیێک بە کلیلیل `my-dog` بکەن.
+</div>
 
 ```bash
 $ curl -X GET "https://www.example.com/api/pages/my-dog?token=80a09ba055b73f68e3c9e7c9ea12b432"
 ```
-
-Response Body
+<div dir="rtl">
+جەستەی وڵام
+</div>
 
 ```bash
 {
@@ -81,8 +91,10 @@ Response Body
 }
 ```
 
-<h2 id="javascript-example">Javascript example</h2>
-You can use the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to get the page.
+<div dir="rtl">
+<h2 id="javascript-example">نمونەیە جاڤاسکریپت</h2>
+دەتوانن سود لە  [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) بۆ وەرگرتنی پەڕە بگرن.
+</div>
 
 ```bash
 <script>
