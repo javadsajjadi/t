@@ -1,16 +1,19 @@
-# Tags
+<div dir="rtl" >
+
+# تاگەکان
 <!-- position: 6 -->
 
-Code snippets for working with tags.
+کۆدەبچکۆلەکان بۆ ئیشکردن لە سەر تاگەکان
 
-Predefined variables for tags:
-- `$tags` is Tag Object, [here the class](https://github.com/bludit/bludit/blob/master/bl-kernel/tags.class.php)
+گۆڕاوەکان کە ناسراوەن بۆ تاگەکان:
+- `$tags` ئابجێکتی تاگەکان بریتین لە , [ئەمکلاسانە](https://github.com/bludit/bludit/blob/master/bl-kernel/tags.class.php)
 
 <div class="note">
-By default, the database of tags is alphanumerically sorted.
+بە پێشگریمان پەڕەی تاگەکان بە شێوەی ئەلف و بێ ریزکراوەن
 </div>
 
-<h2 id="list-all-tags">List all tags</h2>
+<h2 id="list-all-tags"پێرستی تەواو تاگەکان</h2>
+</div>
 
 ```
 <?php
@@ -27,7 +30,9 @@ By default, the database of tags is alphanumerically sorted.
 ?>
 ```
 
-Alternative:
+<div dir="rtl" >
+جێگرەوە:
+</div>
 
 ```
 <?php
@@ -43,7 +48,9 @@ Alternative:
 ?>
 ```
 
-<h2 id="list-tags-that-have-pages">List tags that have pages</h2>
+<div dir="rtl" >
+<h2 id="list-tags-that-have-pages">پیرستی تاگەکان لە  پەڕە</h2>
+</div>
 
 ```
 <?php
@@ -60,7 +67,9 @@ Alternative:
 ?>
 ```
 
-<h2 id="list-all-tags-and-pages">List all tags and the pages related to the tag</h2>
+<div dir="rtl" >
+<h2 id="list-all-tags-and-pages">پێرستی تاگ و پەڕەکان کە پەیوەندیان بە تاگەکان هەیە</h2>
+</div>
 
 ```
 <?php
@@ -79,7 +88,9 @@ Alternative:
 ?>
 ```
 
-<h2 id="list-all-pages-related-to-a-particular-tag">List all pages related to a particular tag</h2>
+<div dir="rtl" >
+<h2 id="list-all-pages-related-to-a-particular-tag">پێرستی تاگەکان کە پەیوەندیان بە پەڕەکان هەیە</h2>
+</div>
 
 ```
 <?php
@@ -100,7 +111,9 @@ Alternative:
 ?>
 ```
 
-<h2 id="get-the-active-tag">Get the active tag</h2>
+<div dir="rtl" >
+<h2 id="get-the-active-tag">وەرگرتنی تاگی چالاک</h2>
+</div>
 
 ```
 <?php
@@ -118,9 +131,11 @@ Alternative:
 ?>
 ```
 
-<h2 id="print-the-tags-of-a-page">Tags of a page</h2>
+<div dir="rtl" >
+<h2 id="print-the-tags-of-a-page">تاگەکانی یەک پەڕە</h2>
 
-Print the tags of a page:
+چاپی تاگەکان لە پەڕە:
+</div>
 ```
 <?php
 	$returnsArray = true;
@@ -133,8 +148,12 @@ Print the tags of a page:
 ?>
 ```
 
-Print the tags and permalink:
+<div dir="rtl" >
+چاپکردنی تاگ و بەستەرەکەی:
+</div>
+
 ```
+
 <?php
 	$returnsArray = true;
 
