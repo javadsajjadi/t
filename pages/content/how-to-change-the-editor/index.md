@@ -1,11 +1,14 @@
-# How to change the editor
+<div dir="rtl">
+  
+  #چۆن  ئامرازی دەستکاریکەر بگۆڕین
 <!-- position: 6 -->
 
-By default, Bludit uses the [TinyMCE](https://www.tiny.cloud/) Editor - a simple and clean HTML editor. But you can also choose SimpleMDE which supports Markdown Code. TinyMCE and SimpleMDE are pre-installed on Bludit by default; both are plugins and you can find them in the plugin section.
+پێشگریمان، بلوودیت سوود دەگرێت ؛ە دەستکاریکەری [TinyMCE](https://www.tiny.cloud/)  - دەستکاریکەرێکی سادەو ساکارە بۆ  HTML . بەڵام ئێوە بژاردەیێکی دیکەتان هەیە بەناوی SimpleMDEکە کۆدەکانی مارکداون پشتیوانی دەکا. TinyMCE وە SimpleMDE بە شێوازی پێشگریمان لە نێو زیادکراوەکان هەن; 
 
-## How to switch from TinyMCE to SimpleMDE
-- Log in into the **Admin panel**.
-- Go to **Plugins** on the left menu.
-- Find the plugin **TinyMCE** and click on the **Deactivate** button.
-- Find the plugin **SimpleMDE** and click on the button **Activate** button.
-- You have now enabled SimpleMDE as your content editor.
+## جۆن لە دەستکاری کەری TinyMCE برۆین بۆ دەستکاریکەری SimpleMDE
+- بجنەژوورەوە لە **تەختەی بەڕێوەبەر**.
+- برۆن بۆ  **زیادکراوەکان**لە مێنیۆی لاتەنیشتی ڕاست.
+- زیادکراوەی **TinyMCE** پەیدابکەن ئینجا لەسەر **ناچالاککردن** کرتە بکەن.
+- زیادکراوەی **SimpleMDE** پەیدا بکەن و کرتەلەسەر **چالاککردن** بکەن.
+- ئێوە ئێستا دەستکاریکەری SimpleMDE بە عینوانی دەستکاریکەری دەقەکانتان چالاککەردووەو لە بەردەستە..
+</div>
