@@ -73,7 +73,8 @@ $ curl -X GET \
 
 <div dir="rtl">
 دەرەنجام:
-	</div>
+</div> 
+
 ```
 {
   "status": "0",
