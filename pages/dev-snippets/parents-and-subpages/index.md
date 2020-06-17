@@ -1,11 +1,14 @@
-# Parents and subpages
+<div dir="rtl" >
+	
+# پەڕەی باوان و ژێر پەڕە
 <!-- position: 7 -->
 
 <div class="note">
-The following snippets work in Bludit > v2.3
+ئەم پارچەکۆدانە ئیش دەکەن لە بلوودیت > v2.3
 </div>
 
-## Check if a page has children (subpages)
+## چاو لە پەرەی منداڵ بکەن (ژێرپەڕەکان)
+</div>
 
 ```
 <?php
@@ -17,8 +20,9 @@ The following snippets work in Bludit > v2.3
 	}
 ?>
 ```
-
-## List all children of a page
+<div dir="rtl" >
+## پێرستی تەواو ژێرپەڕەکان لە پەڕەیێک
+</div>
 
 ```
 <?php
@@ -31,8 +35,9 @@ The following snippets work in Bludit > v2.3
 	}
 ?>
 ```
-
-## Check if a page is a child (has a parent)
+<div dir="rtl" >
+## چاودێری بکە گەر پەڕەیێک ژێرپەڕە بوو باوانی هەبوو
+</div>
 
 ```
 <?php
@@ -44,9 +49,10 @@ The following snippets work in Bludit > v2.3
 	}
 ?>
 ```
-
-## Print the title of the parent page from the child
-If a page has a child, you can call the methods of the parent page with `parentMethod()`.
+<div dir="rtl" >
+## چاپکردنی  سەردێڕی پەڕەی باوان لە ژێر پەڕە
+گە پەڕەێکی منداڵ بوو,دەتوانن ناوی بنن پاوان پەڕە بە مێتۆدی `parentMethod()`.
+</div>
 
 ```
 <?php
@@ -58,9 +64,10 @@ If a page has a child, you can call the methods of the parent page with `parentM
 	}
 ?>
 ```
-
-## Print a Navigation Bar
-A parent page might or may not have children.
+<div dir="rtl" >
+## جاپکردنی شریتی مێنیۆ
+باوان پەڕە دەتوانێت ژێرپەڕەی هەبێ یان نە
+</div>
 
 ```
 <?php
@@ -82,3 +89,4 @@ A parent page might or may not have children.
 	}
 ?>
 ```
+</div>
