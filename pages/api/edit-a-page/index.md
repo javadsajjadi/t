@@ -1,47 +1,55 @@
-# Edit a page
+<div dir="rtl">
+
+# دەستکاری پەڕەیێک
 <!-- position: 5 -->
 
-Edit a page.
-
-All requests to the API need the `API Token`. You can find the token in the API plugin settings.
+دەتکاری پەرەیێک
+Aتەواو داواکان لە سەر API پێویستیان بە `API Token`. ئێوە دەتوانن تۆکن پەیدا بکەن لە API ڕێکخستنی زیادکراوەی
+</div>
 
 ```bash
 Admin panel > Plugins > API > API Token
 ```
 
-For all requests to the API for write content, you'll need to provide the `Authentication Token`. To get this token, you need a user with `Administrator` role. Get the `Authentication Token` from the user profile.
+<div dir="rtl">
+بۆ تەواو داواکارییەکانی API بۆ نووسینی ناوەرۆک, پێویستان بە نیشاندانی `Authentication Token` هەیە. بۆ وەرگرتنی ئەم تۆکنە, پێویستان بە بەکارهێنەرێک بە ئاستی `Administrator` هەیە. وەریبگرن `Authentication Token` لە پرۆفایلی بەکارهێنەر
+</div>
 
 ```bash
 Admin panel > Manage > Users > {Username} > Security > Authentication Token
 ```
 
-<h2 id="request">HTTP Request</h2>
+<div dir="rtl">
+<h2 id="request">HTTP داوای</h2>
+</div>
 
 ```bash
 PUT /api/pages/{key}
 ```
 
-<h2 id="parameters">Parameters</h2>
+<div dir="rtl">
+<h2 id="parameters">پارامەتر</h2>
 
 | key | value | Default value |
 |-----|-------|---------------|
 | `required` token | `string` API Token. | |
 | `required` authentication | `string` Authentication token. | |
-| title | `string` Page title. | |
-| content | `string` Page content. | |
-| tags | `string` Page tags. | |
-| type | `string` Page type. | |
-| date | `string` Page date. | |
-| dateModified | `string` Page modified date. | |
-| position | `string` Page position. | |
-| coverImage | `string` Page cover image. | |
-| category | `string` Page category. | |
-| template | `string` Page template. | |
-| noindex | `string` Page noindex. | |
-| nofollow | `string` Page nofollow. | |
-| noarchive | `string` Page noarchive. | |
+| title | `string` سەردێڕی پەڕە. | |
+| content | `string` ناوەڕۆکی پەڕە. | |
+| tags | `string` تاگەکانی پەڕە. | |
+| type | `string` جۆری پەڕە. | |
+| date | `string` بەرواری پەڕە. | |
+| dateModified | `string` بەرواری دەستکاری پەڕە. | |
+| position | `string` شوێنی پەڕە. | |
+| coverImage | `string` وێنە بەرگی پەڕە. | |
+| category | `string` هاوپۆلی پەڕە. | |
+| template | `string` رووکاری پەڕە. | |
+| noindex | `string` پەڕەی پشت. | |
+| nofollow | `string` پەڕەی شوێن نەکەوتوو. | |
+| noarchive | `string` پەڕەی بێ ئارشێڤ. | |
 
-<h2 id="response">Response</h2>
+<h2 id="response">وڵام</h2>
+</div>
 
 ```bash
 HTTP Code: 200
@@ -56,10 +64,12 @@ Body:
 }
 ```
 
-<h2 id="curl-example">CURL command example</h2>
-The follow curl example shows how to edit a page with the key `my-dog`.
+<div dir="rtl">
+<h2 id="curl-example">CURLنمونە فەرمانی</h2>
+پەیرەوەی لە نمونەی curl نیشاندەدرێت چۆن دەستکاری پەڕەیێک بە کلیلی `my-dog` بکەن.
 
-Content of file `data.json`
+ناوەڕۆکی پەڕگەی `data.json`
+</div>
 
 ```bash
 {
@@ -70,7 +80,9 @@ Content of file `data.json`
 }
 ```
 
-Execute the command, and attach the `data.json` file:
+<div dir="rtl">
+جێبەجێکردنی فەرمان, و لکاندنی پەڕەگەی `data.json` :
+</div>
 
 ```bash
 $ curl  -X PUT \
@@ -79,7 +91,9 @@ $ curl  -X PUT \
 	"https://www.example.com/api/pages/my-dog"
 ```
 
-Response Body
+<div dir="rtl">
+جەستەی وڵام
+</div>
 
 ```bash
 {
