@@ -1,34 +1,42 @@
-# Delete a page
+<div dir="rtl">
+
+# سڕینەوەی پەڕەیێک
 <!-- position: 6 -->
 
-Delete a page.
+سڕینەوەی پەڕەیێک.
 
-All requests to the API need the `API Token`. You can find the token in the API plugin settings.
+تەواو داواکان پێویستیان بە APIهەیە هەروا نیازیان بە `API Token`. ئێوە دەتوانن تۆکن پەیدا بکەن لە API پەڕەی رێکخستنی زیادکراوەی.
+</div>
 
 ```bash
 Admin panel > Plugins > API > API Token
 ```
 
-For all requests to the API for write content, you'll need to provide the `Authentication Token`. To get this token, you need a user with `Administrator` role. Get the `Authentication Token` from the user profile.
+<div dir="rtl">
+بۆ تەواو داواکانی API بۆ نووسینی ناوەڕۆک, ئێوە دەبێ نیشانی بدەن `Authentication Token`. بۆ وەرگرتنی تۆکن,ئێوە پێویستان بە بەکارهێنەرێک بە ڕۆڵێ `Administrator` هەیە. ئەم ڕۆڵە واتە `Authentication Token` لە پرۆفایلی بەکارهێنەر وەربگرن
+</div>
 
 ```bash
 Admin panel > Manage > Users > {Username} > Security > Authentication Token
 ```
-
-<h2 id="request">HTTP Request</h2>
+<div dir="rtl">
+<h2 id="request">HTTP وڵامی</h2>
+</div>
 
 ```bash
 DELETE /api/pages/{key}
 ```
 
-<h2 id="parameters">Parameters</h2>
+<div dir="rtl">
+<h2 id="parameters">پارامەتر</h2>
 
 | key | value | Default value |
 |-----|-------|---------------|
 | `required` token | `string` API Token. | |
 | `required` authentication | `string` Authentication token. | |
 
-<h2 id="response">Response</h2>
+<h2 id="response">وڵام</h2>
+</div>
 
 ```bash
 HTTP Code: 200
@@ -40,8 +48,10 @@ Body:
 }
 ```
 
-<h2 id="curl-example">CURL command example</h2>
-The following curl example shows how to delete a page with the key `my-dog`.
+<div dir="rtl">
+<h2 id="curl-example">CURLنمونە فەرمانی</h2>
+بۆ نمونە فەرمانی curl نیشانی دەدا سڕینەوەی پەڕەیێک بە کلیلی `my-dog`.
+</div>
 
 ```bash
 $ curl  -X DELETE \
@@ -51,7 +61,9 @@ $ curl  -X DELETE \
 	"https://www.example.com/api/pages/my-dog"
 ```
 
-Response Body
+<div dir="rtl">
+جەستەی وڵام
+</div>
 
 ```bash
 {
