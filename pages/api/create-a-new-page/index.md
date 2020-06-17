@@ -1,48 +1,57 @@
+<div dir="rtl">
+	
 # دروستکردنی پەڕەیێکی نوێ
 <!-- position: 4 -->
 
 دروستکردنی پەڕەی نوێ.
 
-All requests to the API need the `API Token`. You can find the token in the API plugin settings.
+تەواو داواکارییەکان بۆ  API نیازمەندی `API Token` ـە. ئێوە دەتوانن تۆکن لە  ڕێکخراوەی زیادکراوەی ئەی.پی.ئەی پەیدا بکەن
+</div>
 
 ```bash
 Admin panel > Plugins > API > API Token
 ```
 
-For all requests to the API for write content, you'll need to provide the `Authentication Token`. To get this token, you need a user with `Administrator` role. Get the `Authentication Token` from the user profile.
+<div dir="rtl">
+تەواو داواکان بۆ نووسینین API بۆ ناوەرۆک, ئێوە دەبێ  `Authentication Token` فەراهەم بکەن.بۆ بەدەستکەوتنی تۆکن ئێوە پێویستان بە بەکارهێنەرێک بە ڕۆڵێ `Administrator` هەیە.دەتوانن `Authentication Token` لە پرۆفایلی بەکارهێنەر وەربگرن
+</div>
 
 ```bash
 Admin panel > Manage > Users > {Username} > Security > Authentication Token
 ```
 
-<h2 id="request">HTTP Request</h2>
+<div dir="rtl">
+<h2 id="request">HTTPداواکان</h2>
+</div>
 
 ```bash
 POST /api/pages/{key}
 ```
 
-<h2 id="parameters">Parameters</h2>
+<div dir="rtl">
+<h2 id="parameters">پارامەتر</h2>
 
 | key | value | Default value |
 |-----|-------|---------------|
 | `required` token | `string` API Token. | |
 | `required` authentication | `string` Authentication token. | |
-| title | `string` Page title. | |
-| content | `string` Page content. | |
-| tags | `string` Page tags, separated by comma. | |
-| type | `string` Page type. | |
-| date | `string` Page date (formatted as "YYYY-MM-DD Hours:Minutes:Seconds"). | |
-| slug | `string` Page URL slug. | (Derived from lowercased title) |
-| dateModified | `string` Page modified date. | |
-| position | `string` Page position. | |
-| coverImage | `string` Page cover image. | |
-| category | `string` Page category. | |
-| template | `string` Page template. | |
-| noindex | `string` Page noindex. | |
-| nofollow | `string` Page nofollow. | |
-| noarchive | `string` Page noarchive. | |
+| title | `string` سەردێڕی پەڕە. | |
+| content | `string` ناوەڕۆکی پەڕە. | |
+| tags | `string` تاگەکانی پەڕە جودای بکە بە بۆر . | |
+| type | `string` جۆری پەڕە. | |
+| date | `string` رێکەوتی پەڕە (شێواز بە م جۆرەیە "YYYY-MM-DD Hours:Minutes:Seconds"). | |
+| slug | `string` ناونیشانی ناوی لاتینی پەڕە. | (Derived from lowercased title) |
+| dateModified | `string` بەرواوری دەستکاری پەڕە. | |
+| position | `string` شوێنی پەڕە. | |
+| coverImage | `string` وێنەی بەرگی پەڕە. | |
+| category | `string` هاوپۆلی پەڕە. | |
+| template | `string` رووکاری پەڕە. | |
+| noindex | `string` پەڕەی پشت. | |
+| nofollow | `string` پەڕەی شوێن نەکەوتوو. | |
+| noarchive | `string` پەڕەی ئارشیڤ نەکراو. | |
 
-<h2 id="response">Response</h2>
+<h2 id="response">وڵام</h2>
+</div>
 
 ```bash
 HTTP Code: 200
@@ -57,10 +66,12 @@ Body:
 }
 ```
 
-<h2 id="curl-example">CURL command example</h2>
-Here is an example that shows you how to create a new page via the command line with the `curl` command. The `data.json` file has the basic data needed to create a new page.
+<div dir="rtl">
+<h2 id="curl-example">CURLنمونە فەرمانی </h2>
+لێرە پێتان نیشان دەدرێ دروستکردنی پەڕەیێکی نوێ بە فەرمان لە سەر `curl` . پەڕگەی `data.json` زانیاری بنەڕەتی تێدایە بۆ دروستکردنی پەڕەی نوێ.
 
-Content of file `data.json`:
+ناوەڕپکی پەڕەی `data.json`:
+</div>
 
 ```bash
 {
@@ -71,7 +82,9 @@ Content of file `data.json`:
 }
 ```
 
-Execute the command and attach the `data.json` file:
+<div dir="rtl">
+جیبەجێی بکەن فەرمانەکان لە پەڕگەی `data.json` :
+</div>
 
 ```bash
 $ curl  -X POST \
@@ -80,7 +93,9 @@ $ curl  -X POST \
 	"https://www.example.com/api/pages/my-dog"
 ```
 
-Response Body
+<div dir="rtl">
+جەستەی وڵام
+</div>
 
 ```bash
 {
