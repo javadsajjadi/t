@@ -1,32 +1,37 @@
-# Request a list of pages
+<div dir="rtl">
+
+# داوا بۆ پێرستێک لە پەڕەکان
 <!-- position: 2 -->
 
-Get a list of pages.
+وەرگرتنی پێرستی پەڕەکان
 
-All requests to the API need the `API Token`. You can find the token in the API plugin settings.
+تەواو داواکارییەکان بە API پێویستی بە `API Token` هەیە. Yئێوە دەتوانن تۆکن پەیدا بکەن لە API ڕێکخستنی زیادکراوەیە
+</div>
 
 ```bash
 Admin panel > Plugins > API > API Token
 ```
-
-<h2 id="request">HTTP Request</h2>
+<div dir="rtl">
+<h2 id="request">HTTP داواکان</h2>
+</div>
 
 ```bash
 GET /api/pages
 ```
-
-<h2 id="parameters">Parameters</h2>
+<div dir="rtl">
+<h2 id="parameters">پارامەتر</h2>
 
 | key | value | Default value |
 |-----|-------|---------------|
 | `required` token | `string` API Token | |
-| published | `boolean` Returns published pages. | `true` |
-| sticky | `boolean` Returns sticky pages. | `false` |
-| static | `boolean` Returns static pages. | `false` |
-| draft | `boolean` Returns draft pages. | `false` |
-| untagged | `boolean` Returns pages without tags. | `false` |
+| published | `boolean` پەڕەکانی بڵآوکراوە دەگەڕێنێتەوە. | `true` |
+| sticky | `boolean` پەڕەکانی لکاو دەگەڕێنێتەوە. | `false` |
+| static | `boolean` پەڕەکانی نەجولاو دەگەڕێنێتەوە. | `false` |
+| draft | `boolean` پەڕەکانی پێش نووس دەگەڕێنێتەوە. | `false` |
+| untagged | `boolean` پەڕەکان بێ تاگ دەگەرێنێتەوە. | `false` |
 
-<h2 id="response">Response</h2>
+<h2 id="response">وڵام</h2>
+</div>
 
 ```bash
 HTTP Code: 200
@@ -58,14 +63,18 @@ Body:
 }
 ```
 
-<h2 id="curl-example">CURL command example</h2>
-The following request returns a list of published and static pages, limited by the API. You can change the limit in the API settings.
+<div dir="rtl">
+<h2 id="curl-example">CURL نمونەی فەرمانی</h2>
+ئەم داوانە پەڕەکانی بڵاوکراوەو نەجوڵاو دەگەڕێنێتەوە, سنوردارە بە API. دەتوانن ژمارەی بگۆڕن لە  API ڕێکخستنەکانی.
+</div>
 
 ```bash
 $ curl -X GET "https://www.example.com/api/pages?token=80a09ba055b73f68e3c9e7c9ea12b432&published=true&static=true"
 ```
 
-Response Body
+<div dir="rtl">
+جەستەی داوا
+</div>
 
 ```bash
 {
@@ -94,8 +103,10 @@ Response Body
 }
 ```
 
-<h2 id="javascript-example">Javascript example</h2>
-You can use the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to get the list of pages.
+<div dir="rtl">
+<h2 id="javascript-example">نمونەی جاڤا سکریپت</h2>
+دەتوانن سود بگرن لە [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) بۆ وەرگرتنی پێرستی پەڕەکان.
+</div>
 
 ```
 <script>
