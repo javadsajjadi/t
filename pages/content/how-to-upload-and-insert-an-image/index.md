@@ -1,14 +1,18 @@
-# How to upload and insert an image
+<div dir="rtl" >
+
+# چۆنیەتی بارکردن و تێخزاندنی وێنە
 <!-- position: 3 -->
 
-You can upload an image, and then insert it into the content of the page.
+ئحێوە دەتوانن وێنە بار بکەن و بیخزێننە نێو ناوەڕۆکی بابەت.
 
-1. Click on the **Images** button.
-2. Click on the **Browser**  button.
-3. Select the image from your computer.
-4. After the image is uploaded, click on the **Insert** button to add the image to your page content.
+1. لەسەر دوگمەی  **وێنەکان** کرتەبکەن.
+2.لەسەر دوگمەی **Browser**  کرتەبکەن.
+3. وێنەیێک لە نێو کۆمپیوترەکەت هەڵبژێرە
+4. پاش بارکردنی وێنە، کرتەیێک لە سەر ڕەستەی **خستنە نێو بابەت** بکەن بۆ زیادکردنی وێنە لە ناوەرۆکی بابەت
 
-Here's a video with the steps:
+ئەمەش ڤیدیۆی فێرکارییەکەی
 <div class="videoWrapper">
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/53UTSO_aQg0?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 </div>
