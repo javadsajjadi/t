@@ -1,2 +1,2 @@
-# Dev Snippets
+# پارچەکردنی کۆدەکان
 <!-- position: 8 -->
