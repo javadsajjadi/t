@@ -1,10 +1,13 @@
-# Content: Static
+<div dir="rtl" >
+
+# ناوەڕۆکی نەججوولاو
 <!-- position: 4 -->
 
-This section is related to the content of [static pages](https://docs.bludit.com/en/content/content-basics#static).
+ئەم پەشە پەیوەندی بە ناوەرۆکی نەجوولاو هەیە [پەڕەکانی نەجوولاو](https://docs.bludit.com/en/content/content-basics#static).
 
-## Show all the static pages
-Bludit has a [predefined variable for static pages](https://docs.bludit.com/en/developers/predefined-variables#staticContent) named `$staticContent`. This variable is an array with all the static pages.
+## نیشاندانی تەواو پەڕە نەجوولاوەکان واتە ستاتیک
+بلوودیت ناوێکی بە [predefined variable for static pages](https://docs.bludit.com/en/developers/predefined-variables#staticContent) named `$staticContent` هەیە. گۆڕاوێکە بۆ نیشاندانی تەواو پەڕە نەجولاوەکان
+</div>
 
 ```
 <?php
