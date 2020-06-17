@@ -1,5 +1,5 @@
 <div dir="rtl">
   
-# ئای.پی.ئای (API(
+# ئەی.پی.ئای (API)
 <!-- position: 6 -->
 </div>
