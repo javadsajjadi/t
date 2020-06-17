@@ -1,11 +1,14 @@
-# Content: Pages
+<div dir="rtl" >
+
+# ناوەڕۆکی پەڕەکان
 <!-- position: 3 -->
 
-The examples belows are for the **Pages** content type; the pages must published (visible for the users) for these examples to work.
+لە نمونەی خوارەوە جۆری ناوەرۆکی **پەڕەکان**بەکاربراوە; پەڕەکان بڵاوکراوەن (بەکارهێنەران دەیانبینن) لەم نمونە کە ئیشی لەسەر دەکەین.
 
-<h2 id="list-all-pages-from-the-active-page">List all sub-pages on the active page:</h2>
+<h2 id="list-all-pages-from-the-active-page">پێرستی تەواو ژێر پەڕەکان لە پەڕەی تایبەت:</h2>
 
-Bludit provides a predefined `$content` array with all the sub-pages (or child pages) of the current page the user is viewing. This array is used for the themes. The following code prints the title and the content of the pages.
+بلوودیت بە شیوازی پێشگریمان `$content` ئەرای تەواو ژێر پەڕەکانی (یان منداڵ پەڕەکان) لە پەڕەی ئێستا کە بەکارهێنەر دەیبینێت هەیە. ئەم یەرایە سوودی لێدەگرن لە ڕووکار ئەم کۆدە سەردێر و ناوەڕۆک لە پەڕە چاپ دەکات.
+</div>
 
 ```
 <?php
@@ -16,9 +19,11 @@ Bludit provides a predefined `$content` array with all the sub-pages (or child p
 ?>
 ```
 
-<h2 id="list-the-latest-5-pages">List the latest 5 pages</h2>
+<div dir="rtl" >
+<h2 id="list-the-latest-5-pages">پێرستی ٥ پەڕە</h2>
 
-This code snippet prints the `title` of the latest 5 pages with the status `published`.
+ئەم کۆدە چکۆڵە دەگەڕێنێتەوە `title` لە ٥ پەڕەی بڵاوکراوە کە لە ئاستی `published` دان.
+</div>
 
 ```
 <?php
@@ -44,9 +49,11 @@ This code snippet prints the `title` of the latest 5 pages with the status `publ
 ?>
 ```
 
-<h2 id="list-all-pages">List all the pages</h2>
+<div dir="rtl" >
+<h2 id="list-all-pages">پێرستی تەواو پەڕەکان</h2>
 
-This code snippet prints the `title` of all of pages in the system with the status `published`. Please note that it can affect performance, depending on the number of pages.
+ئەم کۆدە بچکۆڵە چاپدەکات `title` بۆ تەواو پەڕەکان لەدۆخی `published`. تکایە ئاگادار بە بە پێی ژمارە پەڕەکان دەتوانێت کاریگەری لەسەر کردار بێت.
+</div>
 
 ```
 <?php
@@ -71,8 +78,9 @@ This code snippet prints the `title` of all of pages in the system with the stat
 	}
 ?>
 ```
+<div dir="rtl" >
+## ئیسکردن بە ژێر پەڕە
+بلوودیت پشتیوانی دەکات ئاستی ژێرپەڕە
 
-## Working with subpages
-Bludit supports one level of subpages.
-
-To work properly with subpages, you need to set up the order filter by `position`.
+بۆ ئیش کردن بە ژێر پەڕە پێویستان بە جێگیرکردنی پەڕە لە ئاستی `position` هەیە.
+</div>
