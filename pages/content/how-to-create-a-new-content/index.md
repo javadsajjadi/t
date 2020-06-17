@@ -1,19 +1,22 @@
-# How to create new content
+<div dir="rtl">
+	
+# چۆن ناوەرۆکیکی نووی دروستبکەین
 <!-- position: 2 -->
 
-Log in into the **Admin panel**, and click on **New content** in the left menu.
+برۆنەژوورەوە لە **تەختەی بەڕێوەبەر**,کرتەیێک لە سەر **ناوەرۆکی نوێ** لە شریتی لاتەنیشتی ڕاست بکەن
 
-1. Write the title.
-2. Write the content.
-3. Click on the **Publish** button.
-4. Done!
+1. سەردێڕێکی بنووسن.
+2. ناوەرۆکیکی بۆ بابەتەکە بنووسن.
+3. لەسەر دوگمەی **بڵاوکردن** کرتە بکەن.
+4. تەواو!
 
-Here a video with the steps:
+ئەمەش ڤیدیۆ بۆ ئەم مەبەستە:
 <div class="videoWrapper">
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/HJ2uo-Pe-gY?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="note">
-<div class="title">Editor</div>
-By default, Bludit uses TinyMCE as its content editor; you can use choose alternatives in the plugin section. <a href="https://docs.bludit.com/en/content/how-to-change-the-editor">How to change the editor</a>
+<div class="title">دەستکاری</div>
+پێسگریمان بلوودیت سوود لە TinyMCE بە عینوانی دەستکاریکەری دەق دەگرێت; دەتوانن لە نێو زیادکراوەکان جێگەرێکی بۆ پەیدا بکەن. <a href="https://docs.bludit.com/en/content/how-to-change-the-editor">چۆن دەستکاریکەر بگۆڕین</a>
+</div>
 </div>
