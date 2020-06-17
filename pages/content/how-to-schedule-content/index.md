@@ -1,28 +1,31 @@
-# How to schedule content
+<div dir="rtl" >
+	
+# چۆنیەتی بەرنامەبۆدانانی ناوەرۆک
 <!-- position: 5 -->
 
-You can prepare a page and schedule it to be published on your website at future different date and time.
+ئێوە دەتوانن ناوەرۆکیکی لە کات یان مەودایێکی دیاری کراو بڵآو بکەن لە بلوودیت
 
-To schedule a post for publication:
-1. Create a new page, click on **New content** on the left sidebar.
-2. Click on the **Options** button.
-3. Click on the **Advanced** tab.
-4. Choose the date and time you want the page to be published.
-5. Complete the page, such as title, and content.
-6. Click the **Publish** button.
-7. You can see your scheduled content in **Content > Scheduled**
+بۆ بڵاوکردنی ناوەرۆک لە کاتی دابین کراو:
+1. پەڕەێکی نوێ دروست بکەن، کرتەیێک لە سەر **ناوەرۆکی نوێ** لە شریتی لاتەنیشتی لای ڕاست بکەن.
+2. کرتەییک لە سەر دوگمەی **بژاردەکان** بکەن.
+3. کرتەیێک لە سەر سەرخشتی **پێشکەوتوو** بکەن.
+4. بەروارێک بۆ بڵاوکردنی ناوەرۆکەکەتان هەڵبژێرن یان دابینی بکەن
+5. پەرەکەتان بە سەردێر و ناوەڕۆک بنووسن
+6. لەسەر دوگمەی **بڵاوکردن** کرتە بکەن.
+7. ئێستا دەتوانن ناوەرۆکیک کە خستنتانە نێو  کاتی بڵآوکردن لە  **ناوەڕۆک > کاتی بۆ دابین کراو** ببینن
 
-Here's a video with all steps:
+ئەمەس ڤیدیۆی فێرکاری
 <div class="videoWrapper">
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/3E8qhXbek5o?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="note">
-<div class="title">Note</div>
-The users can't access the page until the publish date.
+<div class="title">خاڵ</div>
+بەکارینەهاران ناتوانن دەستپێگەیشتنینان  بێ بۆ دەستکاری ئەم بابەتە
 </div>
 
 <div class="note">
-<div class="title">Note</div>
-You can modify the publish date by editing the page.
+<div class="title">خاڵ</div>
+ئێوە دەتوانن دەستکاری بڵآوکردن بکەن لە پەڕەی دەستکاری ناوەڕۆکی بابەت
+</div>
 </div>
