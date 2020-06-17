@@ -1,9 +1,12 @@
-# Plugins
+<div dir="rtl" >
+
+# زیادکراوەکان
 <!-- position: 10 -->
 
-Snippets to help you work with plugins:
+پارچەکۆدێک دەربارەی زیادکراوەکان
 
-## Activate plugin
+## زیادکراوەی چالاک
+</div>
 
 ```
 <?php
@@ -13,8 +16,10 @@ Snippets to help you work with plugins:
 	activatePlugin($className);
 ?>
 ```
-
-## Deactivate plugin
+<div dir="rtl" >
+	
+## زیادکراوەی ناچالاک
+</div>
 
 ```
 <?php
@@ -24,8 +29,9 @@ Snippets to help you work with plugins:
 	deactivatePlugin($className);
 ?>
 ```
-
-## Check if a plugin is activated (enabled)
+<div dir="rtl" >
+## چاودێری بکە گەر زیادکراوەیێک چالاک بوو
+</div>
 
 ```
 <?php
@@ -40,10 +46,13 @@ Snippets to help you work with plugins:
 ?>
 ```
 
-## Get a plugin
-This function returns a [Plugin-Object](https://github.com/bludit/bludit/blob/master/bl-kernel/abstract/plugin.class.php).
+<div dir="rtl" >
 
-The plugin needs to be activated, otherwise the `getPlugin()` function returns `false`.
+## وەرگرتنی زیادکراوە
+ئەم فۆنکشێنە دەگەڕێنێتەوە [ئانجێکتی زیادکراوە](https://github.com/bludit/bludit/blob/master/bl-kernel/abstract/plugin.class.php).
+
+ئەم زیادکراوە پێویستی بە چالاکبوون هەیە, هەرچەند کە `getPlugin()` بۆ گەڕانەوەی ئەم فۆنکشێنە دەبێ `false`.
+</div>
 
 ```
 <?php
