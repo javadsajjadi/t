@@ -14,7 +14,7 @@
 6. لەسەر دوگمەی **بڵاوکردن** کرتە بکەن.
 7. ئێستا دەتوانن ناوەرۆکیک کە خستنتانە نێو  کاتی بڵآوکردن لە  **ناوەڕۆک > کاتی بۆ دابین کراو** ببینن
 
-ئەمەس ڤیدیۆی فێرکاری
+ئەمەش ڤیدیۆی فێرکاری
 <div class="videoWrapper">
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/3E8qhXbek5o?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
