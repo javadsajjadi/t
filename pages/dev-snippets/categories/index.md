@@ -1,16 +1,20 @@
-# Categories
+<div dir="rtl" >
+	
+# هاوپۆلەکان
 <!-- position: 5 -->
 
-Here's a code snippet for working with categories.
+پارچەکۆدێک لە جۆری ئیشکردن بە هاوپۆلەکان لێرە دەخەینە بەردەست
 
-Predefined variables for categories:
-- `$categories` is Categories object; [here;s the class](https://github.com/bludit/bludit/blob/master/bl-kernel/categories.class.php).
+گۆڕاوەکان کە پێشتر ناسراوەن بۆ هاوپۆلەکان:
+
+- `$categories` ئابجێکتی هاوپۆلە; [بۆ کلاسەکانی](https://github.com/bludit/bludit/blob/master/bl-kernel/categories.class.php).
 
 <div class="note">
-By default, the database of categories is sorted alphanumerically.
+بە شێوازی پێسگریمان هاپۆلەکان بە پیتی ئەلف و بێ ریز کراوەن
 </div>
 
-<h2 id="list-all-categories">List all categories:</h2>
+<h2 id="list-all-categories">پێرستی تەواو هاوپۆلەکان:</h2>
+</DIV>
 
 ```
 <?php
@@ -27,8 +31,8 @@ By default, the database of categories is sorted alphanumerically.
 	}
 ?>
 ```
-
-Alternative:
+<div dir="rtl" >
+جێگرەوە:
 
 ```
 <?php
@@ -46,7 +50,9 @@ Alternative:
 ?>
 ```
 
-<h2 id="list-categories-that-have-pages">List categories that have pages:</h2>
+<div dir="rtl" >
+<h2 id="list-categories-that-have-pages">پێرستی هاوپۆلەکان کە پەڕەیان هەیە:</h2>
+</DIV>
 
 ```
 <?php
@@ -63,7 +69,9 @@ Alternative:
 ?>
 ```
 
-<h2 id="list-all-categories-and-pages">List all categories, and the pages related to each category:</h2>
+<div dir="rtl" >
+<h2 id="list-all-categories-and-pages">پێرستی هاوپۆلەکان و پەڕەی پەیوەندی بە هاوپۆلەکان:</h2>
+</DIV>
 
 ```
 <?php
@@ -82,7 +90,9 @@ Alternative:
 ?>
 ```
 
-<h2 id="list-all-pages-related-to-a-particular-category">List all pages related to a particular category:</h2>
+<div dir="rtl" >
+<h2 id="list-all-pages-related-to-a-particular-category">پێرستی تەواو پەڕەکان کە پەیوەندی بە هاوپۆلێکی تایبەت هەیە:</h2>
+</DIV>
 
 ```
 <?php
@@ -103,8 +113,10 @@ Alternative:
 ?>
 ```
 
-<h2 id="get-the-active-category">Get the active category:</h2>
-
+<div dir="rtl" >
+<h2 id="get-the-active-category">بۆ وەرگرتنی چالاکی هاوپۆل:</h2>
+	</DIV>
+	
 ```
 <?php
 	// Check if the user is browsing a category
