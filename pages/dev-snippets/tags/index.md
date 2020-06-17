@@ -6,7 +6,7 @@
 کۆدەبچکۆلەکان بۆ ئیشکردن لە سەر تاگەکان
 
 گۆڕاوەکان کە ناسراوەن بۆ تاگەکان:
-- `$tags` ئابجێکتی تاگەکان بریتین لە , [ئەمکلاسانە](https://github.com/bludit/bludit/blob/master/bl-kernel/tags.class.php)
+- `$tags` ئابجێکتی تاگەکانە بریتین لە , [ئەم کلاسانە](https://github.com/bludit/bludit/blob/master/bl-kernel/tags.class.php)
 
 <div class="note">
 بە پێشگریمان پەڕەی تاگەکان بە شێوەی ئەلف و بێ ریزکراوەن
